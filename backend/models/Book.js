@@ -2,10 +2,12 @@
 const mongoose = require("mongoose");
 //basically a schmea for mongodb
 const BookSchema = new mongoose.Schema({
-    title: String,
-    author: String,
-    genre: [String], //array containing strings for multiple genre
+    title: { type: String, required: true },
+    author: { type: String, required: true },
+    genre: [{ type: String, required: true }], //array containing strings for multiple genre
+    description: { type: String },
     interactions: [{ userId: String, action: String, timestamp: Date }]
 });
 
-module.exports = mongoose.model("Book", BookSchema);
+const Book = mongoose.model("Book", BookSchema);
+module.exports = Book;
