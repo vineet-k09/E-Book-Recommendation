@@ -6,7 +6,11 @@ const BookSchema = new mongoose.Schema({
     author: { type: String, required: true },
     genre: [{ type: String, required: true }], //array containing strings for multiple genre
     description: { type: String },
-    interactions: [{ userId: String, action: String, timestamp: Date }]
+    interactions: [{
+        userId: { type: String, required: true },
+        action: { type: String, enum: ['bookmark', 'like', 'dislike', 'read'], required: true },
+        timestamp: { type: Date, default: Date.now },
+    }]
 });
 
 const Book = mongoose.model("Book", BookSchema);

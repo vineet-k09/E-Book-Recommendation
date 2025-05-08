@@ -10,7 +10,14 @@ connectDB(); // Connect to MongoDB -- async function from config/config.js
 
 const app = express();
 app.use(express.json()); // Allow JSON requests
-app.use(cors());
+app.use(cors({
+    origin: ['http://localhost:3000', 'http://192.168.75.176:3000'],
+    credentials: true,
+}));
+// “Hey browser, I approve requests coming from these two origins:
+// http://localhost:3000 and http://192.168.75.176:3000.”
+// backend is on port 5000
+
 app.use("/api/auth", authRoutes); //loads the page authRoutes.js
 
 // Load routes
@@ -21,21 +28,24 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () =>
+    console.log(`Server running on port ${PORT}`),
+    console.log(`http://localhost:5000/`)
+);
 
 
 /////////////////////////////////////////
 ////////////////////////////////////////
-const User = require("./models/User");
-const bcrypt = require("bcryptjs");
+// const User = require("./models/User");
+// const bcrypt = require("bcryptjs");
 
-const createAdminUser = async () => {
-    const adminExists = await User.findOne({ username: process.env.ADMIN_USERNAME });
-    if (adminExists) return;
+// const createAdminUser = async () => {
+//     const adminExists = await User.findOne({ username: process.env.ADMIN_USERNAME });
+//     if (adminExists) return;
 
-    const hashedPassword = await bcrypt.hash(process.env.ADMIN_PASSWORD, 10);
-    await new User({ username: process.env.ADMIN_USERNAME, password: hashedPassword, role: "admin" }).save();
-    console.log("Admin user created!");
-};
+//     const hashedPassword = await bcrypt.hash(process.env.ADMIN_PASSWORD, 10);
+//     await new User({ username: process.env.ADMIN_USERNAME, password: hashedPassword, role: "admin" }).save();
+//     console.log("Admin user created!");
+// };
 
-createAdminUser();
+// createAdminUser();
