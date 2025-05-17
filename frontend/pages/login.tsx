@@ -13,6 +13,18 @@ export default function Home() {
     const [token, setToken] = useState<string | null>(null);
     const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
 
+    const handleLogout = async () => {
+        // Clear user and token from state
+        setUser(null);
+        setToken(null);
+
+        // Clear token from local storage
+        localStorage.removeItem('token');
+
+        // Show success message
+        setMessage({ type: 'success', text: 'Logout successful! 🎉' });
+    }
+
     const handleLogin = async () => {
         const data = { username, password };
         const API_URL = process.env.NEXT_PUBLIC_API_URL;
@@ -42,7 +54,7 @@ export default function Home() {
             // Show success message
             setMessage({ type: 'success', text: 'Login successful! 🎉' });
 
-            
+
         } catch (err) {
             console.error(err);
             setMessage({ type: 'error', text: 'Server error. Please try again later. 😢' });
@@ -64,7 +76,11 @@ export default function Home() {
                 placeholder="Password"
                 style={{ display: 'block', margin: '10px 0' }}
             />
-            <button onClick={handleLogin}>Login</button>
+            {!token && (<button onClick={handleLogin}>Login</button>)
+                || (
+                    <button onClick={handleLogout} style={{ marginLeft: '10px' }}>Logout</button>
+                )
+            }
 
             {/* Render backend messages */}
             {message && (

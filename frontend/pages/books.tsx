@@ -15,17 +15,38 @@ export default function BookPage() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch(`${BASE_URL}/api/books`)
-            .then((res) => res.json())
-            .then((data) => {
+        const fetchBooks = async () => {
+            const token = localStorage.getItem("token"); // get token
+
+            if (!token) {
+                console.warn("No token found! User might not be logged in.");
+                setLoading(false);
+                return;
+            }
+
+            try {
+                const res = await fetch(`${BASE_URL}/api/books`, {
+                    headers: {
+                        Authorization: `Bearer ${token}`,
+                    },
+                });
+
+                if (!res.ok) {
+                    throw new Error(`Failed to fetch books: ${res.statusText}`);
+                }
+
+                const data = await res.json();
                 setBooks(data);
-                setLoading(false);
-            })
-            .catch((err) => {
+            } catch (err) {
                 console.error("Failed to fetch books: Book.tsx: ", err);
+            } finally {
                 setLoading(false);
-            });
+            }
+        };
+
+        fetchBooks();
     }, []);
+
     return (
         <div style={{ padding: '2rem' }}>
             <nav style={{ marginTop: '1rem' }}>
@@ -40,7 +61,19 @@ export default function BookPage() {
                 </Link>
             </nav>
             <h1>📖 Books List</h1>
-            <p>Here we'll show all books from the backend API.</p>
+            {loading ? (
+                <p>Loading books...</p>
+            ) : books.length > 0 ? (
+                <ul>
+                    {books.map((book) => (
+                        <li key={book._id}>
+                            <strong>{book.title}</strong> — {book.author}
+                        </li>
+                    ))}
+                </ul>
+            ) : (
+                <p>No books found or not authorized.</p>
+            )}
         </div>
     )
 }

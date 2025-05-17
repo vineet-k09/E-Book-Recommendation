@@ -74,3 +74,19 @@ exports.login = async (req, res) => {
         res.status(500).json({ msg: "Server Error: authController.js" });
     }
 };
+
+exports.logout = async (req, res) => {
+    try {
+        // Invalidate the token on the server-side (if applicable)
+        // For example, you can store the token in a blacklist or set an expiration time
+        if (token){
+            token = null;
+        } else {
+            return res.status(400).json({ msg: "No token found" });
+        }
+        res.json({ msg: "Logout successful" });
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).json({ msg: "Server Error: authController.js" });
+    }
+}

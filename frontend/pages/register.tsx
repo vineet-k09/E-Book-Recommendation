@@ -1,4 +1,6 @@
-import { useState } from 'react';
+'use client';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router'; // if using app dir -> 'next/navigation'
 
 export default function Home() {
     const [username, setUsername] = useState('');
@@ -10,7 +12,10 @@ export default function Home() {
     };
 
     const [user, setUser] = useState<User | null>(null);
+    const [token, setToken] = useState<string | null>(null);
     const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
+
+    const router = useRouter();
 
     const handleRegister = async () => {
         const data = { username, password };
@@ -26,13 +31,17 @@ export default function Home() {
             const result = await res.json();
 
             if (!res.ok) {
-                // Show backend error message if provided
                 setMessage({ type: 'error', text: result.msg || 'Registration failed' });
                 return;
             }
-            setUser(result.user);
 
+            setUser(result.user);
             setMessage({ type: 'success', text: result.msg || 'Registration successful! 🎉' });
+
+            // ⏳ Redirect after 3 seconds
+            setTimeout(() => {
+                router.push('/login');
+            }, 3000);
         } catch (err) {
             console.error(err);
             setMessage({ type: 'error', text: 'Server error. Please try again later. 😢' });
@@ -56,7 +65,6 @@ export default function Home() {
             />
             <button onClick={handleRegister}>Register</button>
 
-            {/* Show backend messages */}
             {message && (
                 <p
                     style={{
@@ -67,10 +75,16 @@ export default function Home() {
                     {message.text}
                 </p>
             )}
+
+            {/* Show welcome and redirect info if registered */}
             {message?.type === 'success' && user && (
                 <div style={{ marginTop: '20px' }}>
                     <h3>Welcome, {user.name}!</h3>
                     <p>User ID: {user.id}</p>
+                    <p>Redirecting to login page in 3 seconds...</p>
+                    <button onClick={() => router.push('/login')} style={{ marginTop: '10px' }}>
+                        Go to Login Now
+                    </button>
                 </div>
             )}
         </div>
