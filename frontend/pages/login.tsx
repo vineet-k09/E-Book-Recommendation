@@ -1,59 +1,35 @@
 import { useState } from 'react';
+import { useAuth } from '../context/AuthContext';
+// import { useRouter } from 'next/router';
+import Navbar from '@/components/Navbar';
 
 export default function Home() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-
-    type User = {
-        id: string;
-        name: string;
-    };
-
-    const [user, setUser] = useState<User | null>(null);
-    const [token, setToken] = useState<string | null>(null);
+    const { login, logout, token, user } = useAuth();
     const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
 
-    const handleLogout = async () => {
-        // Clear user and token from state
-        setUser(null);
-        setToken(null);
-
-        // Clear token from local storage
-        localStorage.removeItem('token');
-
-        // Show success message
-        setMessage({ type: 'success', text: 'Logout successful! 🎉' });
-    }
-
     const handleLogin = async () => {
-        const data = { username, password };
         const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
         try {
             const res = await fetch(`${API_URL}/auth/login`, {
                 method: 'POST',
-                body: JSON.stringify(data),
                 headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, password }),
             });
 
             const result = await res.json();
 
             if (!res.ok) {
-                // If response is not ok, display backend message as error
                 setMessage({ type: 'error', text: result.msg || 'Login failed' });
                 return;
             }
 
-            // Save token
-            localStorage.setItem('token', result.token);
+            // Call login from context
+            login(result.user, result.token);
 
-            // Set user info in state
-            setUser(result.user);
-            setToken(result.token);
-
-            // Show success message
             setMessage({ type: 'success', text: 'Login successful! 🎉' });
-
 
         } catch (err) {
             console.error(err);
@@ -61,8 +37,15 @@ export default function Home() {
         }
     };
 
+    const handleLogout = () => {
+        logout();
+        setMessage({ type: 'success', text: 'Logout successful! 🎉' });
+    };
+
     return (
         <div style={{ padding: '20px' }}>
+
+            <Navbar />
             <input
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
@@ -76,13 +59,13 @@ export default function Home() {
                 placeholder="Password"
                 style={{ display: 'block', margin: '10px 0' }}
             />
-            {!token && (<button onClick={handleLogin}>Login</button>)
-                || (
-                    <button onClick={handleLogout} style={{ marginLeft: '10px' }}>Logout</button>
-                )
-            }
 
-            {/* Render backend messages */}
+            {!token ? (
+                <button onClick={handleLogin}>Login</button>
+            ) : (
+                <button onClick={handleLogout} style={{ marginLeft: '10px' }}>Logout</button>
+            )}
+
             {message && (
                 <p
                     style={{

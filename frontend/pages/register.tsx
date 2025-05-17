@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router'; // if using app dir -> 'next/navigation'
+import Navbar from '@/components/Navbar';
 
 export default function Home() {
     const [username, setUsername] = useState('');
@@ -50,6 +51,7 @@ export default function Home() {
 
     return (
         <div style={{ padding: '20px' }}>
+            <Navbar />
             <input
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}

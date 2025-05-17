@@ -19,3 +19,31 @@ useEffect(() => {
     .then(setBooks)
     .catch((err) => console.error(err));
 }, []);
+
+
+
+
+status
+
+💥 Optional Bonus:
+Add a route guard so if the user tries to visit /login while already logged in, they get redirected to /books:
+
+tsx
+Copy
+Edit
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
+import { useAuth } from '../context/AuthContext';
+
+const Login = () => {
+    const { user } = useAuth();
+    const router = useRouter();
+
+    useEffect(() => {
+        if (user) {
+            router.push('/books');
+        }
+    }, [user]);
+
+    // render login form here
+};

@@ -48,3 +48,9 @@ Run Spark jobs to identify trending books + push to MongoDB → show on the fron
 
 OR integrate with something like Google Analytics, but Spark + MongoDB is more “in-house”
 \*\*
+
+
+
+im using context cause uk backend can be auth powerred but front end hates u 
+
+set token and user r not setup locally now but globally using context

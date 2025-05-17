@@ -1,5 +1,6 @@
 const Link = require('next/link').default
 import { useEffect, useState } from "react";
+import Navbar from "@/components/Navbar";
 
 interface Book {
     _id: string;
@@ -49,17 +50,7 @@ export default function BookPage() {
 
     return (
         <div style={{ padding: '2rem' }}>
-            <nav style={{ marginTop: '1rem' }}>
-                <Link href="/books">
-                    <button style={{ marginRight: '1rem' }}>View Books</button>
-                </Link>
-                <Link href="/login">
-                    <button style={{ marginRight: '1rem' }}>Login</button>
-                </Link>
-                <Link href="/register">
-                    <button>Register</button>
-                </Link>
-            </nav>
+            <Navbar />
             <h1>📖 Books List</h1>
             {loading ? (
                 <p>Loading books...</p>
