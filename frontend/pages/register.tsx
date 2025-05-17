@@ -3,7 +3,6 @@ import { useState } from 'react';
 export default function Home() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
 
     type User = {
         id: string;
@@ -11,7 +10,7 @@ export default function Home() {
     };
 
     const [user, setUser] = useState<User | null>(null);
-    const [token, setToken] = useState<string | null>(null);
+    const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
 
     const handleRegister = async () => {
         const data = { username, password };
@@ -34,8 +33,6 @@ export default function Home() {
             setUser(result.user);
 
             setMessage({ type: 'success', text: result.msg || 'Registration successful! 🎉' });
-
-            setToken(result.token);
         } catch (err) {
             console.error(err);
             setMessage({ type: 'error', text: 'Server error. Please try again later. 😢' });
@@ -74,7 +71,6 @@ export default function Home() {
                 <div style={{ marginTop: '20px' }}>
                     <h3>Welcome, {user.name}!</h3>
                     <p>User ID: {user.id}</p>
-                    <p>Token: {token}</p>
                 </div>
             )}
         </div>

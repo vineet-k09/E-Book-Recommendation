@@ -41,6 +41,8 @@ export default function Home() {
 
             // Show success message
             setMessage({ type: 'success', text: 'Login successful! 🎉' });
+
+            
         } catch (err) {
             console.error(err);
             setMessage({ type: 'error', text: 'Server error. Please try again later. 😢' });
