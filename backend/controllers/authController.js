@@ -26,14 +26,8 @@ exports.register = async (req, res) => {
 
         await user.save();
 
-        // Create JWT
-        const token = jwt.sign({ userId: user.id }, process.env.JWT_SECRET, {
-            expiresIn: "1h",
-        });
-
         res.status(201).json({
             msg: "User registered successfully",
-            token,
             user: {
                 id: user.id,
                 name: user.username,
@@ -53,20 +47,20 @@ exports.login = async (req, res) => {
         // Find user
         const user = await User.findOne({ username });
         if (!user) {
-            return res.status(400).json({ msg: "Invalid username or password" });
+            return res.status(400).json({ msg: "Invalid username" });
         }
 
         // Compare password
         const isMatch = await bcrypt.compare(password, user.password);
         if (!isMatch) {
-            return res.status(400).json({ msg: "Invalid username or password" });
+            return res.status(400).json({ msg: "Invalid password" });
         }
 
         // Create JWT
         const token = jwt.sign({ userId: user.id }, process.env.JWT_SECRET, {
             expiresIn: "1h",
         });
-
+        // front end will store thet token in local storage
         res.json({
             msg: "Login successful",
             token,
@@ -80,3 +74,19 @@ exports.login = async (req, res) => {
         res.status(500).json({ msg: "Server Error: authController.js" });
     }
 };
+
+exports.logout = async (req, res) => {
+    try {
+        // Invalidate the token on the server-side (if applicable)
+        // For example, you can store the token in a blacklist or set an expiration time
+        if (token){
+            token = null;
+        } else {
+            return res.status(400).json({ msg: "No token found" });
+        }
+        res.json({ msg: "Logout successful" });
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).json({ msg: "Server Error: authController.js" });
+    }
+}

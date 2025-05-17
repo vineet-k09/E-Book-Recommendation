@@ -1,0 +1,21 @@
+✅ 2. Create a Utility File for API Calls
+Instead of repeating URLs everywhere, create something like lib/api.ts:
+
+
+const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
+
+export const fetchBooks = async () => {
+  const res = await fetch(`${BASE_URL}/api/books`);
+  if (!res.ok) throw new Error("Failed to fetch books");
+  return res.json();
+};
+Then in your books.tsx:
+
+
+import { fetchBooks } from "@/lib/api";
+
+useEffect(() => {
+  fetchBooks()
+    .then(setBooks)
+    .catch((err) => console.error(err));
+}, []);

@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+button {
+  background-color: var(--foreground);
+  color: var(--background);
+  padding: 10px;
+}
