@@ -1,5 +1,6 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import './globals.css';
+import Navbar from '@/components/Navbar';
 
 export default function Home() {
     return (
@@ -7,17 +8,18 @@ export default function Home() {
             <h1>📚 Welcome to the Book API Frontend</h1>
             <p>This is the main page connected to your backend.</p>
 
-            <nav style={{ marginTop: '1rem' }}>
-                <Link href="/books">
-                    <button style={{ marginRight: '1rem' }}>View Books</button>
-                </Link>
-                <Link href="/login">
-                    <button style={{ marginRight: '1rem' }}>Login</button>
-                </Link>
-                <Link href="/register">
-                    <button>Register</button>
-                </Link>
-            </nav>
+            {/* <nav style={{ marginTop: '1rem' }}>
+                    <Link href="/books">
+                        <button style={{ marginRight: '1rem' }}>View Books</button>
+                    </Link>
+                    <Link href="/login">
+                        <button style={{ marginRight: '1rem' }}>Login</button>
+                    </Link>
+                    <Link href="/register">
+                        <button>Register</button>
+                    </Link>
+                </nav> */}
+            <Navbar />
         </div>
     )
 }

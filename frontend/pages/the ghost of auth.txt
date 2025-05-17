@@ -1,0 +1,27 @@
+🔥 TL;DR: Your current app is a Frankenstein’s monster
+You're using Pages Router (/pages), but you tried to apply App Router logic (layout.tsx)
+
+That’s why your <AuthProvider> is never wrapping anything
+
+Yet it compiles fine, because Next.js is chill like that... until it’s not 🧨
+
+🩹 Solution (one-line fix):
+Create this ASAP:
+
+pages/_app.tsx
+
+tsx
+Copy
+Edit
+import type { AppProps } from 'next/app'
+import { AuthProvider } from '@/context/AuthContext'
+import '../styles/globals.css' // or './globals.css', depending
+
+export default function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <AuthProvider>
+      <Component {...pageProps} />
+    </AuthProvider>
+  )
+}
+Boom. Now all your pages (/books, /login, etc.) will have access to useAuth().
