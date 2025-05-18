@@ -1,5 +1,4 @@
 'use client';
-import './globals.css';
 import { useEffect, useState } from "react";
 import Navbar from '@/components/Navbar';
 import BookCard from '@/components/BookCard'; // Adjust path as needed
