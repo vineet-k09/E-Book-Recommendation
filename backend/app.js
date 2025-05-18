@@ -4,6 +4,9 @@ const cors = require("cors");
 const connectDB = require("./config/config");
 const bookRoutes = require("./routes/bookRoutes"); //imports book routessss
 const authRoutes = require("./routes/authRoutes"); //for authentication
+const userRoutes = require("./routes/userRoutes");
+const interactRoutes = require("./routes/interactRoutes");
+
 
 require("dotenv").config();
 connectDB(); // Connect to MongoDB -- async function from config/config.js
@@ -19,9 +22,24 @@ app.use(cors({
 // backend is on port 5000
 
 app.use("/api/auth", authRoutes); //loads the page authRoutes.js
-
+app.get("/api/auth", (req, res) => {
+    res.send("Welcome to the auth api!")
+})
 // Load routes
 app.use("/api/books", bookRoutes); //loads the page bookRoutes.js
+app.get("/api/books", (req, res) => {
+    res.send("Welcome to the books api!")
+})
+
+app.use("/api/user", userRoutes);       // So /api/user/preferences, /api/user/recommendations
+app.get("/api/user", (req, res) => {
+    res.send("Welcome to the user api!")
+})
+
+app.use("/api", interactRoutes);  // /api/interact/...
+app.get("/api/interact", (req, res) => {
+    res.send("Welcome to the interact api!")
+})
 
 app.get("/", (req, res) => {
     res.send("Welcome to the Book API!");
@@ -32,20 +50,3 @@ app.listen(PORT, () =>
     console.log(`Server running on port ${PORT}`),
     console.log(`http://localhost:5000/`)
 );
-
-
-/////////////////////////////////////////
-////////////////////////////////////////
-// const User = require("./models/User");
-// const bcrypt = require("bcryptjs");
-
-// const createAdminUser = async () => {
-//     const adminExists = await User.findOne({ username: process.env.ADMIN_USERNAME });
-//     if (adminExists) return;
-
-//     const hashedPassword = await bcrypt.hash(process.env.ADMIN_PASSWORD, 10);
-//     await new User({ username: process.env.ADMIN_USERNAME, password: hashedPassword, role: "admin" }).save();
-//     console.log("Admin user created!");
-// };
-
-// createAdminUser();

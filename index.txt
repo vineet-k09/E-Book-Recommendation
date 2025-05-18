@@ -1,0 +1,14 @@
+Goal Recap:
+Recommended for You
+→ Uses user's preferredGenres (from the User model) to fetch books that match.
+
+Explore
+→ All the other books not in preferred genres.
+
+✅ This system should initially run via MongoDB filters, and later allow swapping in smarter logic from analytics logs stored in Hadoop + Spark + Hive.
+
+So we need:
+
+A backend endpoint: /api/books/recommendations
+
+A frontend page: index.tsx to render both sections

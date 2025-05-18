@@ -2,7 +2,7 @@
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
-exports.authMiddleware = (req, res, next) => {
+const authMiddleware = (req, res, next) => {
     const authHeader = req.header("Authorization");
 
     if (!authHeader || !authHeader.startsWith("Bearer ")) {
@@ -13,16 +13,13 @@ exports.authMiddleware = (req, res, next) => {
 
     try {
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        console.log("Decoded token:", decoded); // check this!
         req.user = decoded;
         next();
     } catch (err) {
-        res.status(401).json({ msg: "Invalid token" });
+        console.error("Token verification failed:", err);
+        return res.status(403).json({ error: "Invalid token" });
     }
 };
 
-exports.adminMiddleware = (req, res, next) => {
-    if (!req.user || req.user.role !== "admin") {
-        return res.status(403).json({ msg: "Access denied -- admin -- authMiddleware.js" });
-    }
-    next();
-};
+module.exports = authMiddleware;

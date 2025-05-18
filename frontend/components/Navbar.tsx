@@ -7,7 +7,6 @@ export default function Navbar() {
     return (
         <nav style={{ marginBottom: '20px' }}>
             <Link href="/"><button>Home</button></Link>
-            <Link href="/books"><button>Books</button></Link>
             {!user ? (
                 <>
                     <Link href="/login"><button>Login</button></Link>
@@ -15,6 +14,8 @@ export default function Navbar() {
                 </>
             ) : (
                 <>
+                    <Link href="/books"><button>Books</button></Link>
+                    <Link href="/profile"><button>Profile</button></Link>
                     <button onClick={logout}>Logout</button>
                     <span style={{ marginLeft: '10px' }}>Welcome, {user.name}</span>
                 </>

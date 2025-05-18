@@ -38,3 +38,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## How do you connect frontend pages like books.tsx to backend functions like exportAllBook() in bookController.js
 
 `import { useEffect, useState } from "react";`
+
+```javascript
+// redirect
+const router = useRouter();
+setTimeout(() => {
+	router.push("/recommend");
+}, 5000);
+```

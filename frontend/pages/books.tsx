@@ -1,19 +1,44 @@
 const Link = require('next/link').default
 import { useEffect, useState } from "react";
 import Navbar from "@/components/Navbar";
+import BookCard from "@/components/BookCard";
 
 interface Book {
     _id: string;
     title: string;
     author: string;
+    genre: string[];
+    description?: string;
 }
 
-// const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export default function BookPage() {
     const [books, setBooks] = useState<Book[]>([]);
     const [loading, setLoading] = useState(true);
+
+
+    const logInteraction = async (action: string, bookId: string) => {
+        const token = localStorage.getItem("token");
+        const user = JSON.parse(localStorage.getItem("user") || "{}");
+        try {
+            await fetch(`${BASE_URL}/interact`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    Authorization: `Bearer ${token}`,
+                },
+                body: JSON.stringify({
+                    bookId,
+                    action,
+                    userId: user.id,
+                }),
+            });
+        } catch (err) {
+            console.error("Failed to log interaction", err);
+        }
+    };
+
 
     useEffect(() => {
         const fetchBooks = async () => {
@@ -26,7 +51,7 @@ export default function BookPage() {
             }
 
             try {
-                const res = await fetch(`${BASE_URL}/api/books`, {
+                const res = await fetch(`${BASE_URL}/books`, {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
@@ -55,13 +80,11 @@ export default function BookPage() {
             {loading ? (
                 <p>Loading books...</p>
             ) : books.length > 0 ? (
-                <ul>
+                <div style={{ display: "flex", flexWrap: "wrap" }}>
                     {books.map((book) => (
-                        <li key={book._id}>
-                            <strong>{book.title}</strong> — {book.author}
-                        </li>
+                        <BookCard key={book._id} book={book} onInteract={logInteraction} />
                     ))}
-                </ul>
+                </div>
             ) : (
                 <p>No books found or not authorized.</p>
             )}
