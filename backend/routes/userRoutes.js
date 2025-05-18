@@ -44,7 +44,7 @@ router.get('/recommendations', authenticate, async (req, res) => {
 
         console.log(
             "Recommended books sent to client:",
-            recommendedBooks.map(book => book.title),
+            // recommendedBooks.map(book => book.title),
             user.preferredGenres
         );
 

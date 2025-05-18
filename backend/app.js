@@ -36,7 +36,7 @@ app.get("/api/user", (req, res) => {
     res.send("Welcome to the user api!")
 })
 
-app.use("/api/interact", interactRoutes);  // /api/interact/...
+app.use("/api", interactRoutes);  // /api/interact/...
 app.get("/api/interact", (req, res) => {
     res.send("Welcome to the interact api!")
 })

@@ -18,7 +18,7 @@ interface Log {
     bookId: string;
 }
 
-const tabs = ["liked", "read", "bookmarked", "disliked"];
+const tabs = ["like", "read", "bookmark", "dislike"];
 
 export default function Profile() {
     const [books, setBooks] = useState<Book[]>([]);
@@ -31,18 +31,19 @@ export default function Profile() {
             const token = localStorage.getItem("token");
             const user = JSON.parse(localStorage.getItem("user") || "{}");
 
-            if (!token || !user?.id) {
+            if (!token) {
                 console.warn("User not logged in");
                 setLoading(false);
                 return;
             }
 
             try {
-                const [bookRes, logRes] = await Promise.all([
-                    fetch(`${BASE_URL}/api/books`, {
+                const [bookRes, logRes] = await 
+                Promise.all([
+                    fetch(`${BASE_URL}/books`, {
                         headers: { Authorization: `Bearer ${token}` }
                     }),
-                    fetch(`${BASE_URL}/api/interact?userId=${user.id}`, {
+                    fetch(`${BASE_URL}/interact?userId=${user.id}`, {
                         headers: { Authorization: `Bearer ${token}` }
                     })
                 ]);
@@ -51,7 +52,7 @@ export default function Profile() {
                 const logData = await logRes.json();
 
                 setBooks(bookData);
-                setLogs(logData || []);
+                setLogs(logData.logs);
             } catch (err) {
                 console.error("Error loading profile page:", err);
             } finally {
@@ -63,8 +64,8 @@ export default function Profile() {
     }, []);
 
     const filteredBookIds = logs
-        .filter(log => log.action === activeTab)
-        .map(log => log.bookId);
+        .filter(log => log.action.toLowerCase() === activeTab.toLowerCase())
+        .map(log => log.bookId);  
 
     const filteredBooks = books.filter(book => filteredBookIds.includes(book._id));
 

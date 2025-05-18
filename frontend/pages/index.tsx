@@ -52,12 +52,17 @@ export default function Home() {
     const logInteraction = async (action: string, bookId: string) => {
         const token = localStorage.getItem("token");
         const user = JSON.parse(localStorage.getItem("user") || "{}");
-        if (!token || !user._id) {
+
+        if (!token) {
             return console.warn("Missing token or userId for interaction.");
         }
+        if (!user?.id) {
+            return console.warn("user nai hai idk what -- index.tsx")
+        }
+        console.log("Logging interaction — user.id:", user.id);
 
         try {
-            await fetch(`${BASE_URL}/books/interact`, {
+            await fetch(`${BASE_URL}/interact`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -68,7 +73,9 @@ export default function Home() {
                     action,
                     userId: user.id,
                 }),
-            });
+            }
+            );
+
         } catch (err) {
             console.error(`Failed to log ${action} for ${bookId}:`, err);
         }
