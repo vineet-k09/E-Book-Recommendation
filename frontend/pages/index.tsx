@@ -24,6 +24,7 @@ export default function Home() {
 
             if (!token) {
                 console.warn("User not logged in.");
+                alert("Please log in to see your recommendations.");
                 setLoading(false);
                 return;
             }

@@ -1,3 +1,4 @@
+//pages/login.tsx
 import { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useRouter } from 'next/router';
@@ -14,6 +15,7 @@ export default function Home() {
     } | null>(null);
     const [redirect, setredirect] = useState(false);
 
+    // ✅ Define handleLogin ONCE, with all logic
     const handleLogin = async () => {
         const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
@@ -36,8 +38,24 @@ export default function Home() {
 
             setMessage({ type: 'success', text: 'Login successful! 🎉' });
 
-            // redirect
-            setredirect(true)
+            // ✅ Check if user has preferences
+            const prefRes = await fetch(`${API_URL}/user/recommendations`, {
+                headers: {
+                    'Authorization': `Bearer ${result.token}`,
+                }
+            });
+
+            const prefData = await prefRes.json();
+
+            const userHasPreferences =
+                Array.isArray(prefData.recommended) && prefData.recommended.length > 0;
+            console.log("User preferences:", prefData);
+            if (!userHasPreferences) {
+                setredirect(true); // trigger 5s delay redirect
+            } else {
+                router.push('/'); // go home immediately
+            }
+
         } catch (err) {
             console.error(err);
             setMessage({ type: 'error', text: 'Server error. Please try again later. 😢' });
@@ -65,26 +83,33 @@ export default function Home() {
         <div style={{ padding: '20px' }}>
 
             <Navbar />
-            <input
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                placeholder="Username"
-                style={{ display: 'block', margin: '10px 0' }}
-            />
-            <input
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="Password"
-                style={{ display: 'block', margin: '10px 0' }}
-            />
+            <form
+                onSubmit={(e) => {
+                    e.preventDefault();
+                    handleLogin();
+                }}
+            >
+                <input
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    placeholder="Username"
+                    style={{ display: 'block', margin: '10px 0' }}
+                />
+                <input
+                    type="password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    placeholder="Password"
+                    style={{ display: 'block', margin: '10px 0' }}
+                />
 
-            {!token ? (
-                <button onClick={handleLogin}>Login</button>
-            ) : (
+                {!token && (
+                    <button onClick={handleLogin}>Login</button>
+                )}
+            </form>
+            {token && (
                 <button onClick={handleLogout} style={{ marginLeft: '10px' }}>Logout</button>
             )}
-
             {message && (
                 <p
                     style={{
@@ -101,6 +126,15 @@ export default function Home() {
                     <h3>Welcome, {user.name}!</h3>
                     <p>User ID: {user.id}</p>
                     <p>Session ID: {token}</p>
+                </div>
+            )}
+
+            {redirect && (
+                <div style={{ marginTop: '20px', color: 'blue' }}>
+                    <p>Redirecting you to preferences setup... ✨</p>
+                    <button onClick={() => router.push('/recommend')} style={{ marginTop: '10px' }}>
+                        Go now
+                    </button>
                 </div>
             )}
         </div>

@@ -31,7 +31,7 @@ export default function Home() {
 
             const result = await res.json();
 
-            if (!res.ok) {
+            if (!res.ok || result.msg?.toLowerCase().includes('exist')) {
                 setMessage({ type: 'error', text: result.msg || 'Registration failed' });
                 return;
             }
@@ -39,10 +39,11 @@ export default function Home() {
             setUser(result.user);
             setMessage({ type: 'success', text: result.msg || 'Registration successful! 🎉' });
 
-            // ⏳ Redirect after 3 seconds
+            // Only redirect if truly registered
             setTimeout(() => {
                 router.push('/login');
             }, 3000);
+
         } catch (err) {
             console.error(err);
             setMessage({ type: 'error', text: 'Server error. Please try again later. 😢' });
@@ -52,21 +53,27 @@ export default function Home() {
     return (
         <div style={{ padding: '20px' }}>
             <Navbar />
-            <input
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                placeholder="Username"
-                style={{ display: 'block', margin: '10px 0' }}
-            />
-            <input
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="Password"
-                style={{ display: 'block', margin: '10px 0' }}
-            />
-            <button onClick={handleRegister}>Register</button>
-
+            <form
+                onSubmit={(e) => {
+                    e.preventDefault();
+                    handleRegister();
+                }}
+            >
+                <input
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    placeholder="Username"
+                    style={{ display: 'block', margin: '10px 0' }}
+                />
+                <input
+                    type="password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    placeholder="Password"
+                    style={{ display: 'block', margin: '10px 0' }}
+                />
+                <button type="submit">Register</button> {/* ✅ No onClick */}
+            </form>
             {message && (
                 <p
                     style={{
