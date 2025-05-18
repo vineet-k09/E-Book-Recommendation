@@ -1,6 +1,7 @@
-// pages/recommendation-setup.tsx
+// pages/recommendation.tsx
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import { Check } from "lucide-react"; // or any icon lib you use
 
 const genres = [
     "Fantasy", 
@@ -60,19 +61,24 @@ export default function RecommendationSetup() {
         <div className="p-8">
             <h1 className="text-2xl font-bold mb-4">Pick Your Preferred Genres 🎯</h1>
             <div className="flex flex-wrap gap-3 mb-6">
-                {genres.map((genre) => (
-                    <button
-                        key={genre}
-                        onClick={() => toggleGenre(genre)}
-                        className={`px-4 py-2 rounded-full border transition-colors duration-200 ${selectedGenres.includes(genre)
-                            ? "bg-blue-700 text-white border-blue-900 shadow-lg"
-                            : "bg-gray-100 text-black hover:bg-gray-200"
-                            }`
-                        }
-                    >
-                        {genre}
-                    </button>
-                ))}
+                {genres.map((genre) => {
+                    const isSelected = selectedGenres.includes(genre);
+                    return (
+                        <button
+                            key={genre}
+                            onClick={() => toggleGenre(genre)}
+                            className={`relative flex items-center gap-2 px-4 py-2 rounded-full border transition-colors duration-200 
+                ${isSelected
+                                    ? "bg-blue-700 text-white border-blue-900 shadow-lg"
+                                    : "bg-gray-100 text-black hover:bg-gray-200"
+                                }`
+                            }
+                        >
+                            {isSelected && <Check className="w-4 h-4" />}
+                            {genre}
+                        </button>
+                    );
+                })}
             </div>
             <button
                 onClick={handleSubmit}
