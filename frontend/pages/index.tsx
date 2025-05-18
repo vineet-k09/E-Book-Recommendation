@@ -1,25 +1,112 @@
-// import Link from 'next/link'
+'use client';
 import './globals.css';
+import { useEffect, useState } from "react";
 import Navbar from '@/components/Navbar';
+import BookCard from '@/components/BookCard'; // Adjust path as needed
 
+interface Book {
+    _id: string;
+    title: string;
+    author: string;
+    genre: string[];
+    description?: string;
+}
+
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 export default function Home() {
-    return (
-        <div style={{ padding: '2rem', fontFamily: 'Arial, sans-serif' }}>
-            <h1>📚 Welcome to the Book API Frontend</h1>
-            <p>This is the main page connected to your backend.</p>
+    const [recommended, setRecommended] = useState<Book[]>([]);
+    const [explore, setExplore] = useState<Book[]>([]);
+    const [loading, setLoading] = useState(true);
 
-            {/* <nav style={{ marginTop: '1rem' }}>
-                    <Link href="/books">
-                        <button style={{ marginRight: '1rem' }}>View Books</button>
-                    </Link>
-                    <Link href="/login">
-                        <button style={{ marginRight: '1rem' }}>Login</button>
-                    </Link>
-                    <Link href="/register">
-                        <button>Register</button>
-                    </Link>
-                </nav> */}
+    useEffect(() => {
+        const fetchBooks = async () => {
+            const token = localStorage.getItem("token");
+
+            if (!token) {
+                console.warn("User not logged in.");
+                setLoading(false);
+                return;
+            }
+
+            try {
+                const res = await fetch(`${BASE_URL}/user/recommendations`, {
+                    headers:
+                    {
+                        Authorization: `Bearer ${token}`,
+                    }
+                });
+
+                const data = await res.json();
+                setRecommended(data.recommended);
+                setExplore(data.explore);
+            } catch (err) {
+                alert("Failed to fetch home books:");
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        fetchBooks();
+    }, []);
+
+    const logInteraction = async (action: string, bookId: string) => {
+        const token = localStorage.getItem("token");
+        const user = JSON.parse(localStorage.getItem("user") || "{}");
+        if (!token || !user._id) {
+            return console.warn("Missing token or userId for interaction.");
+        }
+
+        try {
+            await fetch(`${BASE_URL}/books/interact`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    Authorization: `Bearer ${token}`,
+                },
+                body: JSON.stringify({
+                    bookId,
+                    action,
+                    userId: user.id,
+                }),
+            });
+        } catch (err) {
+            console.error(`Failed to log ${action} for ${bookId}:`, err);
+        }
+    };
+
+
+    return (
+        <div style={{ padding: '2rem' }}>
             <Navbar />
+            <h1>🏠 Home</h1>
+
+            {loading ? (
+                <p>Loading books...</p>
+            ) : (
+                <>
+                    {recommended.length > 0 && (
+                        <section>
+                            <h2>✨ Recommended for You</h2>
+                            <div style={{ display: "flex", flexWrap: "wrap" }}>
+                                {recommended.map(book => (
+                                    <BookCard key={book._id} book={book} onInteract={logInteraction} />
+                                ))}
+                            </div>
+                        </section>
+                    )}
+
+                    {
+                        recommended.length > 0 && (<section>
+                            <h2>📚 Explore More</h2>
+                            <div style={{ display: "flex", flexWrap: "wrap" }}>
+                                {explore.map(book => (
+                                    <BookCard key={book._id} book={book} onInteract={logInteraction} />
+                                ))}
+                            </div>
+                        </section>
+                        )}
+                </>
+            )}
         </div>
-    )
+    );
 }

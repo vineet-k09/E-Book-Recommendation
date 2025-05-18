@@ -1,13 +1,18 @@
 import { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
-// import { useRouter } from 'next/router';
+import { useRouter } from 'next/router';
 import Navbar from '@/components/Navbar';
+import { useEffect } from 'react';
 
 export default function Home() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const { login, logout, token, user } = useAuth();
-    const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
+    const [message, setMessage] = useState<{
+        type: 'success' | 'error'; text:
+        string
+    } | null>(null);
+    const [redirect, setredirect] = useState(false);
 
     const handleLogin = async () => {
         const API_URL = process.env.NEXT_PUBLIC_API_URL;
@@ -31,11 +36,25 @@ export default function Home() {
 
             setMessage({ type: 'success', text: 'Login successful! 🎉' });
 
+            // redirect
+            setredirect(true)
         } catch (err) {
             console.error(err);
             setMessage({ type: 'error', text: 'Server error. Please try again later. 😢' });
         }
     };
+
+    const router = useRouter();
+    useEffect(() => {
+        if (redirect) {
+            const timer = setTimeout(() => {
+                router.push('/recommend');
+            }, 5000);
+
+            return () => clearTimeout(timer);
+        }
+    }, [redirect, router]);
+
 
     const handleLogout = () => {
         logout();

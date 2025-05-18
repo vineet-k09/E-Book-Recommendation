@@ -57,7 +57,9 @@ exports.login = async (req, res) => {
         }
 
         // Create JWT
-        const token = jwt.sign({ userId: user.id }, process.env.JWT_SECRET, {
+        const token = jwt.sign({
+            id: user._id
+        }, process.env.JWT_SECRET, {
             expiresIn: "1h",
         });
         // front end will store thet token in local storage
@@ -65,7 +67,7 @@ exports.login = async (req, res) => {
             msg: "Login successful",
             token,
             user: {
-                id: user.id,
+                id: user._id,
                 name: user.username,
             },
         });
@@ -79,7 +81,7 @@ exports.logout = async (req, res) => {
     try {
         // Invalidate the token on the server-side (if applicable)
         // For example, you can store the token in a blacklist or set an expiration time
-        if (token){
+        if (token) {
             token = null;
         } else {
             return res.status(400).json({ msg: "No token found" });
