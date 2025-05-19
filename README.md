@@ -15,6 +15,8 @@ All running locally with manual batch jobs to keep system resource usage in chec
 
 ---
 
+<img src="https://github.com/vineet-k09/E-Book-Recommendation/blob/main/image.png">
+
 ## 🧰 Tech Stack
 
 | Layer     | Tools & Frameworks                                  |
