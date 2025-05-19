@@ -211,9 +211,3 @@ javac -cp "" -d classes GenrePreference*.java
 - Book metadata and covers (via Google Books API) fully integrated  
 - Frontend ready to consume recommendations from backend API  
 - Analytics dashboard not needed for now; focus on recommendations and data pipeline  
-
----
-
-If you want me to whip up those MapReduce skeleton scripts, Spark batch runner examples, or some frontend components next, just say so!
-
-This README’s ready to copy and paste — no breaks, no fuss. Time to blast off! 🚀
