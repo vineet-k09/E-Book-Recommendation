@@ -80,7 +80,7 @@ export default function Home() {
     };
 
     return (
-        <div style={{ padding: '20px' }}>
+        <div className='page-container'>
 
             <Navbar />
             <form
@@ -88,12 +88,14 @@ export default function Home() {
                     e.preventDefault();
                     handleLogin();
                 }}
+                className='auth-form'
             >
                 <input
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                     placeholder="Username"
                     style={{ display: 'block', margin: '10px 0' }}
+                    className="auth-input"
                 />
                 <input
                     type="password"
@@ -101,14 +103,15 @@ export default function Home() {
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="Password"
                     style={{ display: 'block', margin: '10px 0' }}
+                    className="auth-input"
                 />
 
                 {!token && (
-                    <button onClick={handleLogin}>Login</button>
+                    <button className="auth-btn" onClick={handleLogin}>Login</button>
                 )}
             </form>
             {token && (
-                <button onClick={handleLogout} style={{ marginLeft: '10px' }}>Logout</button>
+                <button className="auth-btn"  onClick={handleLogout} style={{ marginLeft: '10px' }}>Logout</button>
             )}
             {message && (
                 <p
@@ -132,7 +135,7 @@ export default function Home() {
             {redirect && (
                 <div style={{ marginTop: '20px', color: 'blue' }}>
                     <p>Redirecting you to preferences setup... ✨</p>
-                    <button onClick={() => router.push('/recommend')} style={{ marginTop: '10px' }}>
+                    <button className="auth-btn" onClick={() => router.push('/recommend')} style={{ marginTop: '10px' }}>
                         Go now
                     </button>
                 </div>

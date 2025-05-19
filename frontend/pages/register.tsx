@@ -51,19 +51,21 @@ export default function Home() {
     };
 
     return (
-        <div style={{ padding: '20px' }}>
+        <div className="page-container">
             <Navbar />
             <form
                 onSubmit={(e) => {
                     e.preventDefault();
                     handleRegister();
                 }}
+                className="auth-form"
             >
                 <input
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                     placeholder="Username"
                     style={{ display: 'block', margin: '10px 0' }}
+                    className="auth-input"
                 />
                 <input
                     type="password"
@@ -71,15 +73,13 @@ export default function Home() {
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="Password"
                     style={{ display: 'block', margin: '10px 0' }}
+                    className="auth-input"
                 />
-                <button type="submit">Register</button> {/* ✅ No onClick */}
+                <button type="submit" className="auth-btn">Register</button> {/* ✅ No onClick */}
             </form>
             {message && (
                 <p
-                    style={{
-                        color: message.type === 'success' ? 'green' : 'red',
-                        marginTop: '20px',
-                    }}
+                    className={`message ${message.type === 'success' ? 'success' : 'error'}`}
                 >
                     {message.text}
                 </p>
@@ -91,7 +91,7 @@ export default function Home() {
                     <h3>Welcome, {user.name}!</h3>
                     <p>User ID: {user.id}</p>
                     <p>Redirecting to login page in 3 seconds...</p>
-                    <button onClick={() => router.push('/login')} style={{ marginTop: '10px' }}>
+                    <button className="auth-btn" onClick={() => router.push('/login')} style={{ marginTop: '10px' }}>
                         Go to Login Now
                     </button>
                 </div>

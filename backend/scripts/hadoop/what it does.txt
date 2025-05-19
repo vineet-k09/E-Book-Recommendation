@@ -1,0 +1,15 @@
+What the MapReduce job should do (high-level):
+Mapper: Read each interaction JSON line, output (bookId, action) pairs.
+
+Reducer: Aggregate counts for each (bookId, action) combo (e.g. reads, clicks, bookmarks).
+
+
+hadoop jar %HADOOP_HOME%\share\hadoop\tools\lib\hadoop-streaming-*.jar \
+ -input /user/vineet/interactions/interactions.json \
+ -output /user/vineet/processed/interaction_summary \
+ -mapper "python3 backend/scripts/hadoop/mapper.py" \
+ -reducer "python3 backend/scripts/hadoop/reducer.py" \
+ -file backend/scripts/hadoop/mapper.py \
+ -file backend/scripts/hadoop/reducer.py
+
+ - yes 

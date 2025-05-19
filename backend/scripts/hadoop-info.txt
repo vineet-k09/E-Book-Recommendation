@@ -1,0 +1,7 @@
+NameNode UI: http://localhost:9870
+
+DataNode UI: http://localhost:9864
+
+ResourceManager UI: http://localhost:8091
+
+Ports used for HDFS: 9000

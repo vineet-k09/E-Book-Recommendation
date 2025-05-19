@@ -1,0 +1,23 @@
+
+vinee@Vineet MINGW64 /e/GithubRepo/E-Book-Recommendation/backend/scripts/hadoop (just_for_safety)
+$ bash run.sh
+Error: Could not find or load main class org.apache.hadoop.fs.FsShell
+Error: Could not find or load main class org.apache.hadoop.util.RunJar
+✅ Genre preferences per user calculated!
+🔍 To see results: hdfs dfs -cat /user/vineet/output/genre_preferences/part-*
+
+vinee@Vineet MINGW64 /e/GithubRepo/E-Book-Recommendation/backend/scripts/hadoop (just_for_safety)
+$ ^C
+
+vinee@Vineet MINGW64 /e/GithubRepo/E-Book-Recommendation/backend/scripts/hadoop (just_for_safety)
+$ hdfs dfs -cat /user/vineet/output/genre_preferences/part-*
+bash: $'\302\226\302\203\302\226hdfs': command not found
+
+vinee@Vineet MINGW64 /e/GithubRepo/E-Book-Recommendation/backend/scripts/hadoop (just_for_safety)
+
+
+
+E:\hadoop\hadoop324\bin\hadoop.cmd jar E:\hadoop\hadoop324\share\hadoop\tools\lib\hadoop-streaming-3.2.4.jar -input /user/vineet/interactions/interactions.json -output hdfs:///user/vineet/output/genre_preferences -mapper "python mapper.py" -reducer "python reducer.py" -files mapper.py,reducer.py
+
+
+E:\hadoop\hadoop324\bin\hadoop.cmd jar E:\hadoop\hadoop324\share\hadoop\tools\lib\hadoop-streaming-3.2.4.jar -files mapper.py,reducer.py -input /user/vineet/interactions/interactions.json -output hdfs:///user/vineet/output/genre_preferences -mapper "python mapper.py" -reducer "python reducer.py"
