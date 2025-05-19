@@ -1,42 +1,364 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* Dark mode vars with a splash of color */
 :root {
-  --background: hsl(0, 0%, 0%);
-  --foreground: #ffffff;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --background: #0f111a;
+  /* deep dark navy */
+  --foreground: #e0e0e0;
+  /* light grey */
+  --primary: #7f5af0;
+  /* violet electric */
+  --primary-hover: #9b6fff;
+  --secondary: #00d1b2;
+  /* mint teal */
+  --shadow-color: rgba(127, 90, 240, 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
-    --foreground: #ededed;
+    --background: #0f111a;
+    --foreground: #e0e0e0;
+    --primary: #7f5af0;
+    --primary-hover: #9b6fff;
+    --secondary: #00d1b2;
+    --shadow-color: rgba(127, 90, 240, 0.4);
   }
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+/* Buttons with color, glow & smoothness */
 button {
-  background-color: var(--foreground);
+  background-color: var(--primary);
   color: var(--background);
-  padding: 10px;
+  border-radius: 12px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  box-shadow: 0 0 8px var(--shadow-color);
   border: none;
-  border-radius: 6px;
   cursor: pointer;
-  transition: all 0.1s ease-in-out;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.1s ease;
+  user-select: none;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: var(--primary-hover);
+  box-shadow: 0 0 12px var(--shadow-color);
 }
 
 button:active {
   transform: scale(0.96);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 6px var(--shadow-color);
+  transition: transform 0.1s ease;
+}
+
+/* Navbar styling */
+nav {
+  background: #1a1c29;
+  box-shadow: 0 2px 10px rgba(127, 90, 240, 0.2);
+  padding: 1rem 2rem;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Links in navbar */
+nav button {
+  margin-right: 12px;
+}
+
+/* Active link style */
+nav button.active {
+  background-color: var(--secondary);
+  box-shadow: 0 0 15px var(--secondary);
+  color: var(--background);
+}
+
+/* Welcome text */
+nav>div {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary-hover);
+}
+
+/* Scrollbar tweak for dark */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f111a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-hover);
+}
+
+/* Book Card container */
+.book-card {
+  background-color: #1a1c29;
+  border-radius: 12px;
+  padding: 1.25rem;
+  /* 20px */
+  width: 16rem;
+  /* 256px */
+  margin: 1rem;
+  box-shadow: 0 0 12px rgba(127, 90, 240, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Book Cover Image */
+.book-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Title */
+.book-title {
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 600;
+  color: #e0e0e0;
+  margin-bottom: 0.5rem;
+}
+
+/* Author and Genres */
+.book-author,
+.book-genres {
+  font-size: 0.875rem;
+  /* 14px */
+  color: #bbbbbb;
+  margin-bottom: 1rem;
+}
+
+/* Actions container */
+.book-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+  /* push actions to bottom */
+}
+
+/* Action Buttons */
+.book-action-btn {
+  background-color: #7f5af0;
+  color: #0f111a;
+  border-radius: 6px;
+  padding: 0.375rem 0.75rem;
+  /* 6px 12px */
+  font-size: 0.75rem;
+  /* 12px */
+  font-weight: 600;
+  box-shadow: 0 0 8px rgba(127, 90, 240, 0.4);
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.book-action-btn:hover {
+  background-color: #9b6fff;
+  box-shadow: 0 0 10px rgba(155, 111, 255, 0.6);
+}
+
+.book-action-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 6px rgba(127, 90, 240, 0.3);
+}
+
+/* Container wrapping whole page content */
+.page-container {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background-color: #121217;
+  /* super dark purple-black */
+  min-height: 100vh;
+  color: #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Form styling */
+.auth-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1rem;
+  background-color: #1f1d2e;
+  /* dark but softer */
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 0 20px rgba(127, 90, 240, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+.auth-form:hover {
+  box-shadow: 0 0 30px rgba(127, 90, 240, 0.8);
+}
+
+/* Inputs */
+.auth-input {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #29273f;
+  color: #eee;
+  outline-offset: 2px;
+  transition: background-color 0.3s ease, outline-color 0.3s ease;
+}
+
+.auth-input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+.auth-input:focus {
+  background-color: #3c3b57;
+  outline: 2px solid #7f5af0;
+}
+
+/* Buttons */
+.auth-btn {
+  padding: 0.75rem 1rem;
+  background-color: #7f5af0;
+  color: #0f111a;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(127, 90, 240, 0.6);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.1s ease;
+  user-select: none;
+}
+
+.auth-btn:hover {
+  background-color: #9b6fff;
+  box-shadow: 0 0 20px rgba(155, 111, 255, 0.8);
+}
+
+.auth-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 10px rgba(127, 90, 240, 0.5);
+}
+
+/* Messages */
+.message {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  user-select: none;
+}
+
+.message.success {
+  color: #4ade80;
+  /* tailwind green-400 */
+}
+
+.message.error {
+  color: #f87171;
+  /* tailwind red-400 */
+}
+
+/* Additional UI blocks */
+.page-container>div,
+.page-container>p,
+.page-container>h3 {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: #ddd;
+}
+
+button.go-now-btn {
+  margin-top: 1rem;
+  background-color: #5a5aff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.go-now-btn:hover {
+  background-color: #7f7fff;
+}
+
+/* index.tsx */
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.scroll-down {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #666;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.2; transform: translateY(0); }
+  50% { opacity: 1; transform: translateY(5px); }
+  100% { opacity: 0.2; transform: translateY(0); }
+}
+
+.section {
+  padding: 3rem 2rem;
+  background: #fff;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.books-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }

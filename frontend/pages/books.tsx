@@ -1,4 +1,4 @@
-const Link = require('next/link').default
+//frontend/pages/books.tsx
 import { useEffect, useState } from "react";
 import Navbar from "@/components/Navbar";
 import BookCard from "@/components/BookCard";
@@ -16,6 +16,23 @@ const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 export default function BookPage() {
     const [books, setBooks] = useState<Book[]>([]);
     const [loading, setLoading] = useState(true);
+
+    // paging
+    const [currentPage, setCurrentPage] = useState(1);
+    const booksPerPage = 15;
+
+    const indexOfLastBook = currentPage * booksPerPage;
+    const indexOfFirstBook = indexOfLastBook - booksPerPage;
+    const currentBooks = books.slice(indexOfFirstBook, indexOfLastBook);
+
+    const totalPages = Math.ceil(books.length / booksPerPage);
+
+    const handlePageChange = (page: number) => {
+        if (page >= 1 && page <= totalPages) {
+            setCurrentPage(page);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
 
 
     const logInteraction = async (action: string, bookId: string) => {
@@ -76,17 +93,47 @@ export default function BookPage() {
     return (
         <div style={{ padding: '2rem' }}>
             <Navbar />
-            <h1>📖 Books List</h1>
+            <h1 className="text-4xl font-bold mb-6 text-center">📖 Books List</h1>
+
             {loading ? (
-                <p>Loading books...</p>
+                <p className="text-center">Loading books...</p>
             ) : books.length > 0 ? (
-                <div style={{ display: "flex", flexWrap: "wrap" }}>
-                    {books.map((book) => (
-                        <BookCard key={book._id} book={book} onInteract={logInteraction} />
-                    ))}
-                </div>
+                <>
+                    <div className="flex flex-wrap justify-center gap-6">
+                        {currentBooks.map((book) => (
+                            <BookCard key={book._id} book={book} onInteract={logInteraction} />
+                        ))}
+                    </div>
+
+                    {/* Pagination */}
+                    <div className="mt-10 flex justify-center items-center gap-4">
+                        <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1}>
+                            ⬅️ Prev
+                        </button>
+                        {[...Array(totalPages)].map((_, i) => (
+                            <button
+                                key={i}
+                                onClick={() => handlePageChange(i + 1)}
+                                style={{
+                                    fontWeight: currentPage === i + 1 ? "bold" : "normal",
+                                    textDecoration: currentPage === i + 1 ? "underline" : "none",
+                                    padding: "0.4rem 0.8rem",
+                                    backgroundColor: "transparent",
+                                    color: "var(--foreground)",
+                                    border: "1px solid var(--primary)",
+                                    borderRadius: "8px",
+                                }}
+                            >
+                                {i + 1}
+                            </button>
+                        ))}
+                        <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages}>
+                            Next ➡️
+                        </button>
+                    </div>
+                </>
             ) : (
-                <p>No books found or not authorized.</p>
+                <p className="text-center">No books found or not authorized.</p>
             )}
         </div>
     )

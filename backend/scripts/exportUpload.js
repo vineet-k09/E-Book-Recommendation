@@ -18,10 +18,10 @@ const MONGO_URI = "mongodb://localhost:27017/ebooks";
 
 // Local path to store exported interactions
 const EXPORT_FOLDER = path.join(__dirname, "exports", "hdfs");
-const EXPORT_FILE = path.join(EXPORT_FOLDER, "interactions.json");
+const EXPORT_FILE = path.join(EXPORT_FOLDER, "interactions_lines.json");
 
 // HDFS path (you can change this if needed)
-const HDFS_PATH = "/user/vineet/interactions/interactions.json";
+const HDFS_PATH = "/user/vineet/interactions/interactions_lines.json";
 
 // Connect to MongoDB
 mongoose.connect(MONGO_URI)

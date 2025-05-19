@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Navbar from '@/components/Navbar';
 import BookCard from '@/components/BookCard'; // Adjust path as needed
-
+import styles from './index.module.css'; // Adjust path as needed
 interface Book {
     _id: string;
     title: string;
@@ -37,7 +37,7 @@ export default function Home() {
                 });
 
                 const data = await res.json();
-                setRecommended(data.recommended);
+                setRecommended(data.recommended || {});
                 setExplore(data.explore);
             } catch (err) {
                 alert("Failed to fetch home books:");
@@ -83,37 +83,43 @@ export default function Home() {
 
 
     return (
-        <div style={{ padding: '2rem' }}>
+        <div>
             <Navbar />
-            <h1>🏠 Home</h1>
 
-            {loading ? (
-                <p>Loading books...</p>
-            ) : (
-                <>
-                    {recommended.length > 0 && (
-                        <section>
-                            <h2>✨ Recommended for You</h2>
-                            <div style={{ display: "flex", flexWrap: "wrap" }}>
-                                {recommended.map(book => (
-                                    <BookCard key={book._id} book={book} onInteract={logInteraction} />
-                                ))}
-                            </div>
-                        </section>
-                    )}
+            <div className={styles.hero}>
+                <h1>Welcome to BiblioCentury</h1>
+                <p className={styles['scroll-down']}>Scroll down to explore your next read 📖</p>
+            </div>
 
-                    {
-                        recommended.length > 0 && (<section>
-                            <h2>📚 Explore More</h2>
-                            <div style={{ display: "flex", flexWrap: "wrap" }}>
-                                {explore.map(book => (
-                                    <BookCard key={book._id} book={book} onInteract={logInteraction} />
-                                ))}
-                            </div>
-                        </section>
+            <div className={styles.section}>
+                {loading ? (
+                    <p>Loading books...</p>
+                ) : (
+                    <>
+                        {recommended.length > 0 && (
+                            <section>
+                                <h2>✨ Recommended for You</h2>
+                                <div className={styles['books-grid']}>
+                                    {recommended.map(book => (
+                                        <BookCard key={book._id} book={book} onInteract={logInteraction} />
+                                    ))}
+                                </div>
+                            </section>
                         )}
-                </>
-            )}
+
+                        {recommended.length > 0 && (
+                            <section style={{ marginTop: "3rem" }}>
+                                <h2>📚 Explore More</h2>
+                                <div className={styles['books-grid']}>
+                                    {explore.map(book => (
+                                        <BookCard key={book._id} book={book} onInteract={logInteraction} />
+                                    ))}
+                                </div>
+                            </section>
+                        )}
+                    </>
+                )}
+            </div>
         </div>
     );
 }

@@ -1,0 +1,73 @@
+.body {
+    background: radial-gradient(circle at center, rgb(255, 255, 255), transparent);
+}
+
+.hero {
+    margin-top: -9rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--foreground);
+    padding: 2rem;
+    flex-direction: column;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.scroll-down {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: var(--secondary);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.4;
+        transform: translateY(0);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(6px);
+    }
+
+    100% {
+        opacity: 0.4;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.section {
+    padding: 0rem;
+    background: var(--background);
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+    text-shadow: 0 0 4px var(--shadow-color);
+}
+
+.books-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}

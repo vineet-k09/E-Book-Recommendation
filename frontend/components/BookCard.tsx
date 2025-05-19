@@ -34,36 +34,27 @@ export default function BookCard({ book, onInteract }: Props) {
     // }, [book.title]);
 
     return (
-        <div style={{
-            border: '1px solid #ccc',
-            borderRadius: '8px',
-            padding: '1rem',
-            width: '250px',
-            margin: '1rem',
-            boxShadow: '0 0 10px rgba(0,0,0,0.1)'
-        }}>
-            <img src={cover || "/placeholder.jpg"} alt={book.title} style={{ width: '100%', height: 'auto', borderRadius: '6px' }} />
-            <h2>{book.title}</h2>
-            <p><strong>Author:</strong> {book.author}</p>
-            <p><strong>Genres:</strong> {book.genre.join(', ')}</p>
+        <div className="book-card">
+            <img
+                src={cover || "/placeholder.jpg"}
+                alt={book.title}
+                className="book-cover"
+            />
+            <h2 className="book-title">{book.title}</h2>
+            <p className="book-author"><strong>Author:</strong> {book.author}</p>
+            <p className="book-genres"><strong>Genres:</strong> {book.genre.join(", ")}</p>
 
-            <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+            <div className="book-actions">
                 {["click", "like", "dislike", "bookmark", "read"].map((action) => (
                     <button
                         key={action}
                         onClick={() => onInteract(action, book._id)}
-                        style={{
-                            padding: "4px 8px",
-                            fontSize: "0.8rem",
-                            borderRadius: "5px",
-                            backgroundColor: "#f0f0f0",
-                            cursor: "pointer"
-                        }}
+                        className="book-action-btn"
                     >
                         {action}
                     </button>
                 ))}
             </div>
         </div>
-    );
+      );
 }
