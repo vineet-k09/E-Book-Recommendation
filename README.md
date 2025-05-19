@@ -19,7 +19,6 @@ Build a full-stack, data-powered E-Book Recommendation System that:
 | Database   | MongoDB                                                                                                                     |
 | Big Data   | Hadoop (HDFS, MapReduce), Hive, Spark MLlib                                                                                 |
 | Scheduling | Cron Jobs (node-cron), potentially Apache Airflow (for production scale)                                                    |
-| Design UI  | [Figma Board](https://www.figma.com/board/LqTWwlRKuz1x7wg0yX0gpk/Ebook-Recommendation?node-id=0-1&p=f&t=yDg3UGox0drtBxux-0) |
 
 ---
 
