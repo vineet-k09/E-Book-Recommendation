@@ -13,7 +13,11 @@ A full-stack E-Book Recommendation System that leverages:
 
 All running locally with manual batch jobs to keep system resource usage in check.
 
-Check out the project structure [here](https://www.figma.com/board/LqTWwlRKuz1x7wg0yX0gpk/Ebook-Recommendation?node-id=0-1&t=YWQOLIlqQu9NX93z-1)
+## 🧭 Visual Blueprint — See the System in Action
+
+[![Figma Design](https://img.shields.io/badge/Figma-Design-blue?logo=figma&style=for-the-badge)](https://www.figma.com/board/LqTWwlRKuz1x7wg0yX0gpk/Ebook-Recommendation?node-id=0-1&t=YWQOLIlqQu9NX93z-1)
+
+> Click the badge to explore the full layout on Figma — from user flow to UI components.
 
 ---
 <img src="https://github.com/vineet-k09/E-Book-Recommendation/blob/main/frontend.png">
