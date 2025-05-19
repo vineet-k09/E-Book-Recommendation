@@ -16,7 +16,7 @@ All running locally with manual batch jobs to keep system resource usage in chec
 Check out the project structure [here](https://www.figma.com/board/LqTWwlRKuz1x7wg0yX0gpk/Ebook-Recommendation?node-id=0-1&t=YWQOLIlqQu9NX93z-1)
 
 ---
-
+<img src="https://github.com/vineet-k09/E-Book-Recommendation/blob/main/frontend.png">
 <img src="https://github.com/vineet-k09/E-Book-Recommendation/blob/main/image.png">
 
 ## 🧰 Tech Stack
