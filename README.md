@@ -1,44 +1,36 @@
 # 📚 E-Book Recommendation System
 
-## 🎯 Goal
+## 🎯 Overview
 
-Build a full-stack, data-powered E-Book Recommendation System that:
+A full-stack E-Book Recommendation System that leverages:
 
-* Suggests books based on user reading history and preferences
-* Analyzes interaction trends
-* Uses a hybrid of web technologies and big data tools
+- User interactions stored in MongoDB  
+- Batch exports to Hadoop HDFS  
+- MapReduce jobs for data aggregation  
+- Hive for querying processed data  
+- Spark MLlib for collaborative filtering recommendations  
+- Frontend in Next.js showing personalized and explored books  
 
----
-
-## 🛠️ Tech Stack Overview
-
-| Layer      | Tools Used                                                                                                                  |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Frontend   | Next.js, React, Context API                                                                                                 |
-| Backend    | Node.js, Express, AuthContext                                                                                               |
-| Database   | MongoDB                                                                                                                     |
-| Big Data   | Hadoop (HDFS, MapReduce), Hive, Spark MLlib                                                                                 |
-| Scheduling | Cron Jobs (node-cron), potentially Apache Airflow (for production scale)                                                    |
+All running locally with manual batch jobs to keep system resource usage in check.
 
 ---
 
-## 🔍 Core Functionalities
+## 🧰 Tech Stack
 
-* **Store interactions in MongoDB** (bookmarks, likes, reads, dislikes)
-* **Export logs to HDFS** regularly
-* **Process metadata via MapReduce** to count actions per book/genre/author
-* **Query insights using Hive** (e.g., total likes per genre)
-* **Train collaborative filtering model using Spark MLlib (ALS)**
-* **Recommend books to users based on similar behavior**
-* **Trend detection via Spark** → push trending books to MongoDB → display on frontend
+| Layer     | Tools & Frameworks                                  |
+| --------- | ------------------------------------------------- |
+| Frontend  | Next.js, React, Context API                        |
+| Backend   | Node.js, Express, MongoDB                          |
+| Big Data  | Hadoop (HDFS, MapReduce), Hive, Spark MLlib       |
+| Environment | Localhost (Hadoop & Spark), manual batch runs   |
 
 ---
 
-## 🧩 Backend Architecture Breakdown
+## 🗂️ Backend Data Flow
 
-### 🔄 MongoDB Schema Example
+### MongoDB Schema for Interactions
 
-```js
+~~~js
 interactions: [
   {
     userId: String,
@@ -47,68 +39,98 @@ interactions: [
     timestamp: Date
   }
 ]
-```
-
-* Ideal for local user queries
-* Easily exportable to CSV/JSON for Hadoop ingestion
-
-### 🚚 MongoDB → HDFS Export Flow
-
-Batch job (Node.js/Python/cron):
-
-1. Query MongoDB interactions
-2. Dump to `interactions.csv`
-3. Push to HDFS
-
-### 🛠️ MapReduce Jobs
-
-Examples:
-
-* Count total likes/bookmarks per genre
-* Aggregate actions per user/author
-* Clean and normalize noisy records
-
-### 🐝 Hive Queries
-
-```sql
-SELECT genre, COUNT(*) FROM interactions WHERE action = 'like' GROUP BY genre;
-```
-
-* Create external tables on HDFS dumps
-* Query logs to generate insights
-
-### 🔮 Spark MLlib Recommendations
-
-* Input format: `(userId, bookId, action)`
-* Use ALS (Alternating Least Squares)
-* Output: Personalized recommendations
-
-### 📈 Web Analytics
-
-* Identify trending books
-* Push trends to MongoDB for UI rendering
-* Optionally use Google Analytics or in-house Spark-based analytics
+~~~
 
 ---
 
-## 🌐 Frontend Design: Page Layouts
+### Export Script (`exportInteractions.js`)
 
-### 🏠 `index.tsx`
+Run this **outside** your Express backend to keep batch jobs clean and safe.
 
-* **Recommended for You** → based on `preferredGenres` (initially via MongoDB, later via Spark)
-* **Explore More** → all books outside preferred genres
+~~~js
+const mongoose = require('mongoose');
+const fs = require('fs');
+const Book = require('../models/Book');
 
-### 🧠 Recommendation API
+mongoose.connect('mongodb://localhost/ebookdb', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 
-Route: `/api/books/recommendations`
+async function exportInteractions() {
+  try {
+    const books = await Book.find().lean();
+    fs.writeFileSync('interactions.json', JSON.stringify(books, null, 2));
+    console.log('✅ Exported to interactions.json');
+    mongoose.disconnect();
+  } catch (err) {
+    console.error('❌ Error exporting interactions:', err);
+  }
+}
 
-* Pulls from MongoDB or post-Spark model output
+exportInteractions();
+~~~
 
-### 🧭 Auth Context
+**How to push to HDFS (terminal):**
 
-File: `pages/_app.tsx`
+~~~bash
+hdfs dfs -put interactions.json /user/yourusername/interactions/
+~~~
 
-```tsx
+---
+
+### Hadoop MapReduce Job Example
+
+~~~bash
+hadoop jar %HADOOP_HOME%\share\hadoop\tools\lib\hadoop-streaming-*.jar \
+  -input /user/vineet/interactions/interactions.json \
+  -output /user/vineet/processed/interaction_summary \
+  -mapper "python3 backend/scripts/hadoop/mapper.py" \
+  -reducer "python3 backend/scripts/hadoop/reducer.py" \
+  -file backend/scripts/hadoop/mapper.py \
+  -file backend/scripts/hadoop/reducer.py
+~~~
+
+- Mapper: emits `(bookId, action)` pairs  
+- Reducer: aggregates counts per `(bookId, action)`  
+
+---
+
+### Hive Query Sample
+
+~~~sql
+CREATE EXTERNAL TABLE interactions (
+  bookId STRING,
+  action STRING
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+LOCATION '/user/vineet/processed/interaction_summary';
+
+SELECT bookId, COUNT(*) AS total_likes
+FROM interactions
+WHERE action = 'like'
+GROUP BY bookId;
+~~~
+
+---
+
+### Spark MLlib Recommendation Pipeline (Overview)
+
+- Input: `(userId, bookId, action)` tuples  
+- Model: ALS collaborative filtering  
+- Output: Personalized book recommendations  
+- Batch-run manually to control memory use  
+
+---
+
+## 🖥️ Frontend Highlights
+
+### Auth Context Setup
+
+`pages/_app.tsx`:
+
+~~~tsx
 import type { AppProps } from 'next/app';
 import { AuthProvider } from '@/context/AuthContext';
 import '../styles/globals.css';
@@ -120,47 +142,72 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     </AuthProvider>
   );
 }
-```
+~~~
 
-* Enables `useAuth()` across the app
+### API Utility (`lib/api.ts`)
+
+~~~ts
+const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
+
+export const fetchBooks = async () => {
+  const res = await fetch(`${BASE_URL}/api/books`);
+  if (!res.ok) throw new Error("Failed to fetch books");
+  return res.json();
+};
+~~~
+
+### Using in `books.tsx`
+
+~~~tsx
+import { fetchBooks } from '@/lib/api';
+import { useEffect, useState } from 'react';
+
+export default function BooksPage() {
+  const [books, setBooks] = useState([]);
+
+  useEffect(() => {
+    fetchBooks()
+      .then(setBooks)
+      .catch(err => console.error(err));
+  }, []);
+
+  return (
+    <div>
+      {books.map(book => (
+        <div key={book._id}>{book.title}</div>
+      ))}
+    </div>
+  );
+}
+~~~
 
 ---
 
-## ⏱️ Automation Possibilities
+## 🌐 Local Hadoop UI Access
 
-### ✅ Theoretically Possible
-
-* Use `node-cron` or Python scheduler
-* Export logs hourly
-* Trigger MapReduce/Hive/Spark scripts
-
-### ❌ Practically Limited on Localhost
-
-Running all services locally (MongoDB, Hadoop, Spark, Hive, Next.js, Express) will likely exhaust your laptop.
-
-### ✅ Future Deployment Stack
-
-* Automate ETL with: Apache Airflow, AWS Glue, or Databricks Workflows
+- NameNode: [http://localhost:9870](http://localhost:9870)  
+- DataNode: [http://localhost:9864](http://localhost:9864)  
+- ResourceManager: [http://localhost:8091](http://localhost:8091)  
+- Default HDFS port: **9000**
 
 ---
 
-## 🤔 Questions to Finalize Workflow
+## ⚙️ Java & Hadoop Setup (PowerShell)
 
-Answer these to lock the structure:
+~~~powershell
+$env:JAVA_HOME="E:\hadoop\jdk-8.0.302.8-hotspot"
+$env:PATH="$env:JAVA_HOME\bin;$env:PATH"
 
-1. Are you running Hadoop & Spark locally, cluster, or cloud?
-2. Are recs real-time or periodic (e.g., daily)?
-3. Is user login/registration completed?
-4. Does frontend need to show analytics?
-5. Is book metadata (genre, author, etc.) already stored?
+javac -cp "" -d classes GenrePreference*.java
+# Hadoop config files are in E:\hadoop\hadoop324\etc\...
+~~~
 
 ---
 
-## 🚀 Current Status
+## 🏁 Summary
 
-* ✅ MongoDB schema and local interaction logging
-* ✅ AuthContext and frontend structure fixed
-* 🛠️ Big data pipeline under construction
-* 🔜 Spark + Hive integration for recommendations
-
-Keep hitting me with the next file — we’re stacking this README like a fortress of logic and code. 🧱⚡
+- Hadoop & Spark run **locally**; manual batch runs prevent RAM overload  
+- Full MongoDB schema and interaction logging implemented  
+- Book metadata and covers (via Google Books API) fully integrated  
+- Frontend ready to consume recommendations from backend API  
+- Analytics dashboard not needed for now; focus on recommendations and data pipeline  
