@@ -87,7 +87,7 @@ export default function Home() {
             <Navbar />
 
             <div className={styles.hero}>
-                <h1>Welcome to BiblioCentury</h1>
+                <h1>Welcome to BiblioVerse</h1>
                 <p className={styles['scroll-down']}>Scroll down to explore your next read 📖</p>
             </div>
 
