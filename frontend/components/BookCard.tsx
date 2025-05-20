@@ -15,23 +15,23 @@ interface Props {
 
 export default function BookCard({ book, onInteract }: Props) {
     const [cover, setCover] = useState<string>("");
-//enable when finalized
-    // useEffect(() => {
-    //     const fetchCover = async () => {
-    //         try {
-    //             const res = await fetch(
-    //                 `https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(book.title)}&maxResults=1`
-    //             );
-    //             const data = await res.json();
-    //             const imageLink = data.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
-    //             if (imageLink) setCover(imageLink);
-    //         } catch (err) {
-    //             console.error("Error fetching cover:", err);
-    //         }
-    //     };
+// enable when finalized
+    useEffect(() => {
+        const fetchCover = async () => {
+            try {
+                const res = await fetch(
+                    `https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(book.title)}&maxResults=1`
+                );
+                const data = await res.json();
+                const imageLink = data.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
+                if (imageLink) setCover(imageLink);
+            } catch (err) {
+                console.error("Error fetching cover:", err);
+            }
+        };
 
-    //     fetchCover();
-    // }, [book.title]);
+        fetchCover();
+    }, [book.title]);
 
     return (
         <div className="book-card">
