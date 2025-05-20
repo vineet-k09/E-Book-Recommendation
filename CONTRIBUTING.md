@@ -1,6 +1,6 @@
 # 🤝 Contributing to E-Book Recommendation System
 
-Thanks for checking out this project! Right now, this is a local, college-level data science project built by [@vineet-k09](https://github.com/vineet-k09) to explore full-stack development, big data processing, and recommender systems.
+Thanks for checking out this project! Right now, this is a local, college-level data science project built by [@vineet-k09](https://github.com/vineet-k09) and team to explore full-stack development, big data processing, and recommender systems.
 
 ## 🛠 Local Setup
 
