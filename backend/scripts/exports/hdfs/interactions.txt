@@ -1,0 +1,646 @@
+{"bookId": "681c37902f50cc75abd4afb1", "title": "The Picture of Dorian Gray", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-18T16:49:02.833Z"}
+{"bookId": "681c37902f50cc75abd4afb1", "title": "The Picture of Dorian Gray", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-18T17:07:53.818Z"}
+{"bookId": "681c37902f50cc75abd4afb1", "title": "The Picture of Dorian Gray", "userId": "682a060e9d02f03e1c4b707a", "action": "click", "timestamp": "2025-05-18T17:07:57.086Z"}
+{"bookId": "681c37902f50cc75abd4afb1", "title": "The Picture of Dorian Gray", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-18T17:08:14.704Z"}
+{"bookId": "681c37902f50cc75abd4afb1", "title": "The Picture of Dorian Gray", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-18T17:12:16.801Z"}
+{"bookId": "681c37902f50cc75abd4afb1", "title": "The Picture of Dorian Gray", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-29T21:17:53.800Z"}
+{"bookId": "681c37902f50cc75abd4afb1", "title": "The Picture of Dorian Gray", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-03T17:58:05.213Z"}
+{"bookId": "681c37902f50cc75abd4afb1", "title": "The Picture of Dorian Gray", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-27T00:58:29.911Z"}
+{"bookId": "681c37902f50cc75abd4afb1", "title": "The Picture of Dorian Gray", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-11T13:55:20.892Z"}
+{"bookId": "681c37902f50cc75abd4afb1", "title": "The Picture of Dorian Gray", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-28T21:21:30.995Z"}
+{"bookId": "681c37902f50cc75abd4afb1", "title": "The Picture of Dorian Gray", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-18T18:16:47.814Z"}
+{"bookId": "681c37902f50cc75abd4afb4", "title": "Frankenstein or The Modern Prometheus", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-14T20:49:11.920Z"}
+{"bookId": "681c37902f50cc75abd4afb4", "title": "Frankenstein or The Modern Prometheus", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-10T02:30:33.142Z"}
+{"bookId": "681c37902f50cc75abd4afb4", "title": "Frankenstein or The Modern Prometheus", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-24T10:16:10.988Z"}
+{"bookId": "681c37902f50cc75abd4afb4", "title": "Frankenstein or The Modern Prometheus", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-15T18:33:28.490Z"}
+{"bookId": "681c37902f50cc75abd4afb4", "title": "Frankenstein or The Modern Prometheus", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-27T02:36:08.123Z"}
+{"bookId": "681c37902f50cc75abd4afb4", "title": "Frankenstein or The Modern Prometheus", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-13T18:35:52.959Z"}
+{"bookId": "681c37902f50cc75abd4afb4", "title": "Frankenstein or The Modern Prometheus", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-17T07:20:18.565Z"}
+{"bookId": "681c37902f50cc75abd4afb7", "title": "Dracula", "userId": "682a060e9d02f03e1c4b707a", "action": "click", "timestamp": "2025-05-18T16:49:40.208Z"}
+{"bookId": "681c37902f50cc75abd4afb7", "title": "Dracula", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-18T16:49:41.166Z"}
+{"bookId": "681c37902f50cc75abd4afb7", "title": "Dracula", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-18T16:49:45.481Z"}
+{"bookId": "681c37902f50cc75abd4afb7", "title": "Dracula", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-18T17:11:18.436Z"}
+{"bookId": "681c37902f50cc75abd4afb7", "title": "Dracula", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-29T15:44:28.618Z"}
+{"bookId": "681c37902f50cc75abd4afb7", "title": "Dracula", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-11T04:45:42.814Z"}
+{"bookId": "681c37902f50cc75abd4afb7", "title": "Dracula", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-22T08:00:34.052Z"}
+{"bookId": "681c37902f50cc75abd4afb7", "title": "Dracula", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-20T23:47:01.358Z"}
+{"bookId": "681c37902f50cc75abd4afba", "title": "The Jewel of Seven Stars", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-16T05:22:17.337Z"}
+{"bookId": "681c37902f50cc75abd4afba", "title": "The Jewel of Seven Stars", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-10T04:27:48.741Z"}
+{"bookId": "681c37902f50cc75abd4afba", "title": "The Jewel of Seven Stars", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-23T05:45:09.411Z"}
+{"bookId": "681c37902f50cc75abd4afbd", "title": "The Turn of the Screw", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-18T16:49:13.663Z"}
+{"bookId": "681c37902f50cc75abd4afbd", "title": "The Turn of the Screw", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-29T04:44:03.109Z"}
+{"bookId": "681c37902f50cc75abd4afbd", "title": "The Turn of the Screw", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-11T21:40:29.847Z"}
+{"bookId": "681c37902f50cc75abd4afbd", "title": "The Turn of the Screw", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-15T01:19:55.900Z"}
+{"bookId": "681c37902f50cc75abd4afbd", "title": "The Turn of the Screw", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-26T23:41:33.852Z"}
+{"bookId": "681c37902f50cc75abd4afbd", "title": "The Turn of the Screw", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-02T16:01:24.874Z"}
+{"bookId": "681c37902f50cc75abd4afbd", "title": "The Turn of the Screw", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-10T06:35:31.195Z"}
+{"bookId": "681c37902f50cc75abd4afc0", "title": "The Strange Case of Dr. Jekyll and Mr. Hyde", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-30T04:37:42.172Z"}
+{"bookId": "681c37902f50cc75abd4afc0", "title": "The Strange Case of Dr. Jekyll and Mr. Hyde", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-21T00:16:39.021Z"}
+{"bookId": "681c37902f50cc75abd4afc0", "title": "The Strange Case of Dr. Jekyll and Mr. Hyde", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-20T15:02:46.055Z"}
+{"bookId": "681c37902f50cc75abd4afc0", "title": "The Strange Case of Dr. Jekyll and Mr. Hyde", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-19T00:25:51.901Z"}
+{"bookId": "681c37902f50cc75abd4afc0", "title": "The Strange Case of Dr. Jekyll and Mr. Hyde", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-25T01:10:41.942Z"}
+{"bookId": "681c37902f50cc75abd4afc0", "title": "The Strange Case of Dr. Jekyll and Mr. Hyde", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-05T06:00:44.516Z"}
+{"bookId": "681c37902f50cc75abd4afc3", "title": "Herland", "userId": "68289a3d84bc5a83ae986872", "action": "click", "timestamp": "2025-05-18T17:12:21.546Z"}
+{"bookId": "681c37902f50cc75abd4afc3", "title": "Herland", "userId": "68289a3d84bc5a83ae986872", "action": "click", "timestamp": "2025-05-18T17:12:22.714Z"}
+{"bookId": "681c37902f50cc75abd4afc3", "title": "Herland", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-18T17:12:26.530Z"}
+{"bookId": "681c37902f50cc75abd4afc3", "title": "Herland", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-18T17:17:25.767Z"}
+{"bookId": "681c37902f50cc75abd4afc3", "title": "Herland", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-04T22:11:07.219Z"}
+{"bookId": "681c37902f50cc75abd4afc3", "title": "Herland", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-07T04:34:05.031Z"}
+{"bookId": "681c37902f50cc75abd4afc3", "title": "Herland", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-30T11:50:21.727Z"}
+{"bookId": "681c37902f50cc75abd4afc6", "title": "Carmilla", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-10T23:06:18.247Z"}
+{"bookId": "681c37902f50cc75abd4afc6", "title": "Carmilla", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-03T11:23:14.945Z"}
+{"bookId": "681c37902f50cc75abd4afc6", "title": "Carmilla", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-17T20:15:00.678Z"}
+{"bookId": "681c37902f50cc75abd4afc6", "title": "Carmilla", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-12T05:15:36.292Z"}
+{"bookId": "681c37902f50cc75abd4afc9", "title": "The Great God Pan", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-18T16:49:04.244Z"}
+{"bookId": "681c37902f50cc75abd4afc9", "title": "The Great God Pan", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-23T03:04:34.682Z"}
+{"bookId": "681c37902f50cc75abd4afc9", "title": "The Great God Pan", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-28T13:54:22.975Z"}
+{"bookId": "681c37902f50cc75abd4afc9", "title": "The Great God Pan", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-10T21:42:30.496Z"}
+{"bookId": "681c37902f50cc75abd4afc9", "title": "The Great God Pan", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-26T18:24:01.693Z"}
+{"bookId": "681c37902f50cc75abd4afcc", "title": "Tales of Terror and Mystery", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-18T16:49:06.485Z"}
+{"bookId": "681c37902f50cc75abd4afcc", "title": "Tales of Terror and Mystery", "userId": "682a060e9d02f03e1c4b707a", "action": "click", "timestamp": "2025-05-18T16:49:10.159Z"}
+{"bookId": "681c37902f50cc75abd4afcc", "title": "Tales of Terror and Mystery", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-02T17:22:46.851Z"}
+{"bookId": "681c37902f50cc75abd4afcc", "title": "Tales of Terror and Mystery", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-09T14:48:25.495Z"}
+{"bookId": "681c37902f50cc75abd4afcc", "title": "Tales of Terror and Mystery", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-09T17:24:51.313Z"}
+{"bookId": "681c37902f50cc75abd4afcc", "title": "Tales of Terror and Mystery", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-11T10:56:35.100Z"}
+{"bookId": "681c37902f50cc75abd4afcf", "title": "Carrie", "userId": "682a060e9d02f03e1c4b707a", "action": "click", "timestamp": "2025-05-18T16:49:15.461Z"}
+{"bookId": "681c37902f50cc75abd4afcf", "title": "Carrie", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-18T17:12:28.073Z"}
+{"bookId": "681c37902f50cc75abd4afcf", "title": "Carrie", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-07T08:38:04.700Z"}
+{"bookId": "681c37902f50cc75abd4afcf", "title": "Carrie", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-24T12:12:10.254Z"}
+{"bookId": "681c37902f50cc75abd4afd2", "title": "Brood of the Witch-Queen", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-14T21:31:28.735Z"}
+{"bookId": "681c37902f50cc75abd4afd2", "title": "Brood of the Witch-Queen", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-17T04:40:12.969Z"}
+{"bookId": "681c37902f50cc75abd4afd2", "title": "Brood of the Witch-Queen", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-14T14:41:53.111Z"}
+{"bookId": "681c37902f50cc75abd4afd2", "title": "Brood of the Witch-Queen", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-24T14:19:50.215Z"}
+{"bookId": "681c37902f50cc75abd4afd5", "title": "The Damned", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-26T20:14:57.647Z"}
+{"bookId": "681c37902f50cc75abd4afd5", "title": "The Damned", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-11T21:15:47.536Z"}
+{"bookId": "681c37902f50cc75abd4afd5", "title": "The Damned", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-14T09:55:52.813Z"}
+{"bookId": "681c37902f50cc75abd4afd8", "title": "Misery", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-12T04:14:40.347Z"}
+{"bookId": "681c37902f50cc75abd4afd8", "title": "Misery", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-23T14:02:30.953Z"}
+{"bookId": "681c37902f50cc75abd4afd8", "title": "Misery", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-20T05:07:28.432Z"}
+{"bookId": "681c37902f50cc75abd4afd8", "title": "Misery", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-13T12:39:10.353Z"}
+{"bookId": "681c37902f50cc75abd4afd8", "title": "Misery", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-12T06:27:21.233Z"}
+{"bookId": "681c37902f50cc75abd4afd8", "title": "Misery", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-20T14:37:38.033Z"}
+{"bookId": "681c37902f50cc75abd4afd8", "title": "Misery", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-09T15:03:23.392Z"}
+{"bookId": "681c37902f50cc75abd4afdb", "title": "The Shining", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-18T17:12:29.452Z"}
+{"bookId": "681c37902f50cc75abd4afdb", "title": "The Shining", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-22T18:36:36.598Z"}
+{"bookId": "681c37902f50cc75abd4afdb", "title": "The Shining", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-12T19:49:23.813Z"}
+{"bookId": "681c37902f50cc75abd4afdb", "title": "The Shining", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-29T13:28:29.941Z"}
+{"bookId": "681c37902f50cc75abd4afdb", "title": "The Shining", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-23T20:03:26.800Z"}
+{"bookId": "681c37902f50cc75abd4afdb", "title": "The Shining", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-04T20:41:02.241Z"}
+{"bookId": "681c37902f50cc75abd4afdb", "title": "The Shining", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-18T20:18:08.023Z"}
+{"bookId": "681c37902f50cc75abd4afdb", "title": "The Shining", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-17T15:25:13.660Z"}
+{"bookId": "681c37902f50cc75abd4afdb", "title": "The Shining", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-02T03:36:51.025Z"}
+{"bookId": "681c37912f50cc75abd4afde", "title": "Alice's Adventures in Wonderland", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-21T02:50:23.366Z"}
+{"bookId": "681c37912f50cc75abd4afde", "title": "Alice's Adventures in Wonderland", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-29T14:49:21.468Z"}
+{"bookId": "681c37912f50cc75abd4afde", "title": "Alice's Adventures in Wonderland", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-26T00:25:47.621Z"}
+{"bookId": "681c37912f50cc75abd4afde", "title": "Alice's Adventures in Wonderland", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-04T13:28:59.474Z"}
+{"bookId": "681c37912f50cc75abd4afde", "title": "Alice's Adventures in Wonderland", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-02T01:27:46.188Z"}
+{"bookId": "681c37912f50cc75abd4afde", "title": "Alice's Adventures in Wonderland", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-19T03:02:51.611Z"}
+{"bookId": "681c37912f50cc75abd4afde", "title": "Alice's Adventures in Wonderland", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-04T15:46:50.643Z"}
+{"bookId": "681c37912f50cc75abd4afde", "title": "Alice's Adventures in Wonderland", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-30T06:58:57.408Z"}
+{"bookId": "681c37912f50cc75abd4afe1", "title": "Adventures of Huckleberry Finn", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-18T16:49:01.395Z"}
+{"bookId": "681c37912f50cc75abd4afe1", "title": "Adventures of Huckleberry Finn", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-29T00:46:40.972Z"}
+{"bookId": "681c37912f50cc75abd4afe4", "title": "Gulliver's Travels", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-06T00:08:07.106Z"}
+{"bookId": "681c37912f50cc75abd4afe4", "title": "Gulliver's Travels", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-14T20:40:54.845Z"}
+{"bookId": "681c37912f50cc75abd4afe4", "title": "Gulliver's Travels", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-14T13:37:30.238Z"}
+{"bookId": "681c37912f50cc75abd4afe7", "title": "Don Quixote", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-18T17:12:31.513Z"}
+{"bookId": "681c37912f50cc75abd4afe7", "title": "Don Quixote", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-16T08:52:10.848Z"}
+{"bookId": "681c37912f50cc75abd4afe7", "title": "Don Quixote", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-08T17:34:07.026Z"}
+{"bookId": "681c37912f50cc75abd4afe7", "title": "Don Quixote", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-14T14:03:51.743Z"}
+{"bookId": "681c37912f50cc75abd4afea", "title": "Candide", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-15T13:54:46.083Z"}
+{"bookId": "681c37912f50cc75abd4afea", "title": "Candide", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-21T08:18:54.241Z"}
+{"bookId": "681c37912f50cc75abd4afea", "title": "Candide", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-24T22:37:12.062Z"}
+{"bookId": "681c37912f50cc75abd4afed", "title": "Alice's Adventures in Wonderland / Through the Looking Glass", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-29T13:08:28.628Z"}
+{"bookId": "681c37912f50cc75abd4afed", "title": "Alice's Adventures in Wonderland / Through the Looking Glass", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-15T22:10:03.925Z"}
+{"bookId": "681c37912f50cc75abd4afed", "title": "Alice's Adventures in Wonderland / Through the Looking Glass", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-05T00:53:16.124Z"}
+{"bookId": "681c37912f50cc75abd4aff0", "title": "A history of New York", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-11T08:02:15.412Z"}
+{"bookId": "681c37912f50cc75abd4aff0", "title": "A history of New York", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-01T15:50:02.158Z"}
+{"bookId": "681c37912f50cc75abd4aff0", "title": "A history of New York", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-22T07:12:56.309Z"}
+{"bookId": "681c37912f50cc75abd4aff0", "title": "A history of New York", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-29T20:09:54.749Z"}
+{"bookId": "681c37912f50cc75abd4aff0", "title": "A history of New York", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-05T05:05:51.969Z"}
+{"bookId": "681c37912f50cc75abd4aff0", "title": "A history of New York", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-11T07:50:31.574Z"}
+{"bookId": "681c37912f50cc75abd4aff3", "title": "The Importance of Being Earnest", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-18T17:12:33.056Z"}
+{"bookId": "681c37912f50cc75abd4aff6", "title": "The History of Tom Jones", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-24T12:48:53.281Z"}
+{"bookId": "681c37912f50cc75abd4aff6", "title": "The History of Tom Jones", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-09T18:19:32.885Z"}
+{"bookId": "681c37912f50cc75abd4aff6", "title": "The History of Tom Jones", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-04T10:55:15.454Z"}
+{"bookId": "681c37912f50cc75abd4aff6", "title": "The History of Tom Jones", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-13T06:10:10.284Z"}
+{"bookId": "681c37912f50cc75abd4aff6", "title": "The History of Tom Jones", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-16T05:27:31.903Z"}
+{"bookId": "681c37912f50cc75abd4aff6", "title": "The History of Tom Jones", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-15T11:27:30.814Z"}
+{"bookId": "681c37912f50cc75abd4aff6", "title": "The History of Tom Jones", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-18T09:06:48.676Z"}
+{"bookId": "681c37912f50cc75abd4aff6", "title": "The History of Tom Jones", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-22T08:12:08.207Z"}
+{"bookId": "681c37912f50cc75abd4aff9", "title": "The Devil's Dictionary", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-11T10:52:16.884Z"}
+{"bookId": "681c37912f50cc75abd4aff9", "title": "The Devil's Dictionary", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-28T13:23:36.842Z"}
+{"bookId": "681c37912f50cc75abd4aff9", "title": "The Devil's Dictionary", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-01T10:49:48.368Z"}
+{"bookId": "681c37912f50cc75abd4aff9", "title": "The Devil's Dictionary", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-12T22:14:34.624Z"}
+{"bookId": "681c37912f50cc75abd4affc", "title": "Satyricon", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-05T09:10:43.576Z"}
+{"bookId": "681c37912f50cc75abd4affc", "title": "Satyricon", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-12T03:14:07.862Z"}
+{"bookId": "681c37912f50cc75abd4affc", "title": "Satyricon", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-20T04:19:26.595Z"}
+{"bookId": "681c37912f50cc75abd4afff", "title": "Harry Potter and the Chamber of Secrets", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-18T17:12:35.009Z"}
+{"bookId": "681c37912f50cc75abd4afff", "title": "Harry Potter and the Chamber of Secrets", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-27T15:49:37.965Z"}
+{"bookId": "681c37912f50cc75abd4afff", "title": "Harry Potter and the Chamber of Secrets", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-23T05:51:57.870Z"}
+{"bookId": "681c37912f50cc75abd4afff", "title": "Harry Potter and the Chamber of Secrets", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-24T08:36:43.552Z"}
+{"bookId": "681c37912f50cc75abd4afff", "title": "Harry Potter and the Chamber of Secrets", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-23T16:05:47.259Z"}
+{"bookId": "681c37912f50cc75abd4afff", "title": "Harry Potter and the Chamber of Secrets", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-26T10:10:54.262Z"}
+{"bookId": "681c37912f50cc75abd4afff", "title": "Harry Potter and the Chamber of Secrets", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-28T05:18:14.790Z"}
+{"bookId": "681c37912f50cc75abd4afff", "title": "Harry Potter and the Chamber of Secrets", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-25T09:35:22.826Z"}
+{"bookId": "681c37912f50cc75abd4afff", "title": "Harry Potter and the Chamber of Secrets", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-06T09:29:40.544Z"}
+{"bookId": "681c37912f50cc75abd4b002", "title": "\u041c\u0430\u0441\u0442\u0435\u0440 \u0438 \u041c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-23T07:42:07.269Z"}
+{"bookId": "681c37912f50cc75abd4b002", "title": "\u041c\u0430\u0441\u0442\u0435\u0440 \u0438 \u041c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-24T02:21:55.143Z"}
+{"bookId": "681c37912f50cc75abd4b002", "title": "\u041c\u0430\u0441\u0442\u0435\u0440 \u0438 \u041c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-25T23:47:22.037Z"}
+{"bookId": "681c37912f50cc75abd4b002", "title": "\u041c\u0430\u0441\u0442\u0435\u0440 \u0438 \u041c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-21T19:10:34.147Z"}
+{"bookId": "681c37912f50cc75abd4b002", "title": "\u041c\u0430\u0441\u0442\u0435\u0440 \u0438 \u041c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-19T04:04:11.437Z"}
+{"bookId": "681c37912f50cc75abd4b002", "title": "\u041c\u0430\u0441\u0442\u0435\u0440 \u0438 \u041c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-19T13:25:26.427Z"}
+{"bookId": "681c37912f50cc75abd4b005", "title": "Idle Thoughts of an Idle Fellow", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-10T19:54:19.393Z"}
+{"bookId": "681c37912f50cc75abd4b008", "title": "American notes", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-21T04:15:16.744Z"}
+{"bookId": "681c37912f50cc75abd4b008", "title": "American notes", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-05T11:05:43.234Z"}
+{"bookId": "681c37922f50cc75abd4b00b", "title": "The Hound of the Baskervilles", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-18T17:12:36.265Z"}
+{"bookId": "681c37922f50cc75abd4b00b", "title": "The Hound of the Baskervilles", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-28T16:26:44.947Z"}
+{"bookId": "681c37922f50cc75abd4b00b", "title": "The Hound of the Baskervilles", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-15T00:06:08.422Z"}
+{"bookId": "681c37922f50cc75abd4b00b", "title": "The Hound of the Baskervilles", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-19T20:08:06.140Z"}
+{"bookId": "681c37922f50cc75abd4b00e", "title": "The Adventures of Sherlock Holmes [12 stories]", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-20T17:38:35.815Z"}
+{"bookId": "681c37922f50cc75abd4b00e", "title": "The Adventures of Sherlock Holmes [12 stories]", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-09T04:13:55.800Z"}
+{"bookId": "681c37922f50cc75abd4b011", "title": "The Mysterious Affair at Styles", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-15T21:04:00.316Z"}
+{"bookId": "681c37922f50cc75abd4b014", "title": "The Secret Adversary", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-25T20:33:52.774Z"}
+{"bookId": "681c37922f50cc75abd4b014", "title": "The Secret Adversary", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-01T10:39:38.202Z"}
+{"bookId": "681c37922f50cc75abd4b014", "title": "The Secret Adversary", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-08T07:22:11.426Z"}
+{"bookId": "681c37922f50cc75abd4b014", "title": "The Secret Adversary", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-14T16:57:57.896Z"}
+{"bookId": "681c37922f50cc75abd4b01a", "title": "His Last Bow [8 stories]", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-15T16:13:09.805Z"}
+{"bookId": "681c37922f50cc75abd4b01a", "title": "His Last Bow [8 stories]", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-07T01:25:38.546Z"}
+{"bookId": "681c37922f50cc75abd4b01d", "title": "The Riddle of the Sands", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-23T22:14:06.569Z"}
+{"bookId": "681c37922f50cc75abd4b01d", "title": "The Riddle of the Sands", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-09T07:31:58.706Z"}
+{"bookId": "681c37922f50cc75abd4b01d", "title": "The Riddle of the Sands", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-19T16:47:09.167Z"}
+{"bookId": "681c37922f50cc75abd4b01d", "title": "The Riddle of the Sands", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-03T23:55:30.710Z"}
+{"bookId": "681c37922f50cc75abd4b01d", "title": "The Riddle of the Sands", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-20T11:53:50.123Z"}
+{"bookId": "681c37922f50cc75abd4b020", "title": "The Man Who Was Thursday", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-01T11:05:12.803Z"}
+{"bookId": "681c37922f50cc75abd4b020", "title": "The Man Who Was Thursday", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-14T20:43:06.480Z"}
+{"bookId": "681c37922f50cc75abd4b020", "title": "The Man Who Was Thursday", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-10T10:49:17.213Z"}
+{"bookId": "681c37922f50cc75abd4b020", "title": "The Man Who Was Thursday", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-18T22:31:54.866Z"}
+{"bookId": "681c37922f50cc75abd4b020", "title": "The Man Who Was Thursday", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-07T04:16:43.975Z"}
+{"bookId": "681c37922f50cc75abd4b020", "title": "The Man Who Was Thursday", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-01T13:52:14.971Z"}
+{"bookId": "681c37922f50cc75abd4b023", "title": "Heart of Darkness", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-13T21:02:44.271Z"}
+{"bookId": "681c37922f50cc75abd4b023", "title": "Heart of Darkness", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-18T18:32:22.471Z"}
+{"bookId": "681c37922f50cc75abd4b023", "title": "Heart of Darkness", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-20T02:23:06.629Z"}
+{"bookId": "681c37922f50cc75abd4b023", "title": "Heart of Darkness", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-25T18:32:42.636Z"}
+{"bookId": "681c37922f50cc75abd4b023", "title": "Heart of Darkness", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-24T15:43:12.819Z"}
+{"bookId": "681c37922f50cc75abd4b023", "title": "Heart of Darkness", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-04T02:47:49.716Z"}
+{"bookId": "681c37922f50cc75abd4b023", "title": "Heart of Darkness", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-24T01:32:32.135Z"}
+{"bookId": "681c37922f50cc75abd4b026", "title": "\u041f\u0440\u0435\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u0435 \u0438 \u043d\u0430\u043a\u0430\u0437\u0430\u043d\u0438\u0435", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-21T14:56:37.231Z"}
+{"bookId": "681c37922f50cc75abd4b026", "title": "\u041f\u0440\u0435\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u0435 \u0438 \u043d\u0430\u043a\u0430\u0437\u0430\u043d\u0438\u0435", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-04T12:48:21.158Z"}
+{"bookId": "681c37922f50cc75abd4b026", "title": "\u041f\u0440\u0435\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u0435 \u0438 \u043d\u0430\u043a\u0430\u0437\u0430\u043d\u0438\u0435", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-08T01:46:08.212Z"}
+{"bookId": "681c37922f50cc75abd4b029", "title": "Greenmantle", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-18T16:48:27.089Z"}
+{"bookId": "681c37922f50cc75abd4b029", "title": "Greenmantle", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-01T22:43:37.165Z"}
+{"bookId": "681c37922f50cc75abd4b029", "title": "Greenmantle", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-26T13:49:04.664Z"}
+{"bookId": "681c37922f50cc75abd4b029", "title": "Greenmantle", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-29T04:11:15.356Z"}
+{"bookId": "681c37922f50cc75abd4b029", "title": "Greenmantle", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-06T20:10:33.568Z"}
+{"bookId": "681c37922f50cc75abd4b029", "title": "Greenmantle", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-25T17:31:00.201Z"}
+{"bookId": "681c37922f50cc75abd4b029", "title": "Greenmantle", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-21T23:43:10.223Z"}
+{"bookId": "681c37922f50cc75abd4b029", "title": "Greenmantle", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-02T14:33:49.174Z"}
+{"bookId": "681c37922f50cc75abd4b02c", "title": "Trent's Last Case", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-08T08:41:28.348Z"}
+{"bookId": "681c37922f50cc75abd4b02c", "title": "Trent's Last Case", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-08T23:46:10.715Z"}
+{"bookId": "681c37922f50cc75abd4b02c", "title": "Trent's Last Case", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-14T10:29:14.000Z"}
+{"bookId": "681c37922f50cc75abd4b02c", "title": "Trent's Last Case", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-10T14:21:39.523Z"}
+{"bookId": "681c37922f50cc75abd4b02c", "title": "Trent's Last Case", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-10T01:26:20.409Z"}
+{"bookId": "681c37922f50cc75abd4b02c", "title": "Trent's Last Case", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-04T06:40:04.067Z"}
+{"bookId": "681c37922f50cc75abd4b02f", "title": "Harry Potter and the Philosopher's Stone", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-17T00:21:16.986Z"}
+{"bookId": "681c37922f50cc75abd4b02f", "title": "Harry Potter and the Philosopher's Stone", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-20T21:15:04.702Z"}
+{"bookId": "681c37922f50cc75abd4b02f", "title": "Harry Potter and the Philosopher's Stone", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-24T16:32:33.322Z"}
+{"bookId": "681c37922f50cc75abd4b02f", "title": "Harry Potter and the Philosopher's Stone", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-13T12:01:19.753Z"}
+{"bookId": "681c37922f50cc75abd4b02f", "title": "Harry Potter and the Philosopher's Stone", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-23T12:50:57.144Z"}
+{"bookId": "681c37922f50cc75abd4b02f", "title": "Harry Potter and the Philosopher's Stone", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-28T22:19:21.870Z"}
+{"bookId": "681c37922f50cc75abd4b032", "title": "Prester John", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-17T04:59:50.152Z"}
+{"bookId": "681c37922f50cc75abd4b032", "title": "Prester John", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-27T17:05:26.634Z"}
+{"bookId": "681c37922f50cc75abd4b032", "title": "Prester John", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-26T19:57:31.784Z"}
+{"bookId": "681c37922f50cc75abd4b035", "title": "Whose Body?", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-24T16:45:58.576Z"}
+{"bookId": "681c37922f50cc75abd4b035", "title": "Whose Body?", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-16T23:03:57.176Z"}
+{"bookId": "681c37932f50cc75abd4b038", "title": "Treasure Island", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-26T14:55:25.681Z"}
+{"bookId": "681c37932f50cc75abd4b038", "title": "Treasure Island", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-16T03:16:31.235Z"}
+{"bookId": "681c37932f50cc75abd4b03d", "title": "The Thirty-Nine Steps", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-13T19:22:06.932Z"}
+{"bookId": "681c37932f50cc75abd4b03d", "title": "The Thirty-Nine Steps", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-14T19:23:59.711Z"}
+{"bookId": "681c37932f50cc75abd4b03d", "title": "The Thirty-Nine Steps", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-30T06:28:01.160Z"}
+{"bookId": "681c37932f50cc75abd4b03d", "title": "The Thirty-Nine Steps", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-03T16:22:12.807Z"}
+{"bookId": "681c37932f50cc75abd4b041", "title": "The Red Badge of Courage", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-27T05:56:38.549Z"}
+{"bookId": "681c37932f50cc75abd4b041", "title": "The Red Badge of Courage", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-22T00:43:14.704Z"}
+{"bookId": "681c37932f50cc75abd4b041", "title": "The Red Badge of Courage", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-21T18:40:12.840Z"}
+{"bookId": "681c37932f50cc75abd4b041", "title": "The Red Badge of Courage", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-29T22:17:17.287Z"}
+{"bookId": "681c37932f50cc75abd4b041", "title": "The Red Badge of Courage", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-14T09:21:22.864Z"}
+{"bookId": "681c37932f50cc75abd4b041", "title": "The Red Badge of Courage", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-11T19:27:40.587Z"}
+{"bookId": "681c37932f50cc75abd4b044", "title": "The Prisoner of Zenda", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-13T06:23:18.949Z"}
+{"bookId": "681c37932f50cc75abd4b044", "title": "The Prisoner of Zenda", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-08T00:03:09.004Z"}
+{"bookId": "681c37932f50cc75abd4b044", "title": "The Prisoner of Zenda", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-29T00:34:13.792Z"}
+{"bookId": "681c37932f50cc75abd4b044", "title": "The Prisoner of Zenda", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-21T03:43:11.192Z"}
+{"bookId": "681c37932f50cc75abd4b044", "title": "The Prisoner of Zenda", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-30T12:31:12.017Z"}
+{"bookId": "681c37932f50cc75abd4b044", "title": "The Prisoner of Zenda", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-25T21:17:50.945Z"}
+{"bookId": "681c37932f50cc75abd4b044", "title": "The Prisoner of Zenda", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-24T12:53:22.716Z"}
+{"bookId": "681c37932f50cc75abd4b048", "title": "The deerslayer", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-08T11:51:30.698Z"}
+{"bookId": "681c37932f50cc75abd4b048", "title": "The deerslayer", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-04T20:15:01.231Z"}
+{"bookId": "681c37932f50cc75abd4b048", "title": "The deerslayer", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-26T12:57:06.755Z"}
+{"bookId": "681c37932f50cc75abd4b048", "title": "The deerslayer", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-01T09:01:10.651Z"}
+{"bookId": "681c37932f50cc75abd4b048", "title": "The deerslayer", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-09T16:45:44.061Z"}
+{"bookId": "681c37932f50cc75abd4b048", "title": "The deerslayer", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-28T23:01:16.105Z"}
+{"bookId": "681c37932f50cc75abd4b04b", "title": "The Pathfinder", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-13T16:54:48.683Z"}
+{"bookId": "681c37932f50cc75abd4b04b", "title": "The Pathfinder", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-05T21:27:47.959Z"}
+{"bookId": "681c37932f50cc75abd4b04b", "title": "The Pathfinder", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-02T07:02:35.969Z"}
+{"bookId": "681c37932f50cc75abd4b04b", "title": "The Pathfinder", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-10T04:40:54.574Z"}
+{"bookId": "681c37932f50cc75abd4b04e", "title": "Le Tour du Monde en Quatre-Vingts Jours", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-14T00:55:45.382Z"}
+{"bookId": "681c37932f50cc75abd4b04e", "title": "Le Tour du Monde en Quatre-Vingts Jours", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-18T02:38:41.066Z"}
+{"bookId": "681c37932f50cc75abd4b04e", "title": "Le Tour du Monde en Quatre-Vingts Jours", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-25T02:48:09.249Z"}
+{"bookId": "681c37932f50cc75abd4b04e", "title": "Le Tour du Monde en Quatre-Vingts Jours", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-21T21:09:56.044Z"}
+{"bookId": "681c37932f50cc75abd4b04e", "title": "Le Tour du Monde en Quatre-Vingts Jours", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-26T11:31:45.370Z"}
+{"bookId": "681c37932f50cc75abd4b04e", "title": "Le Tour du Monde en Quatre-Vingts Jours", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-10T05:14:54.882Z"}
+{"bookId": "681c37932f50cc75abd4b04e", "title": "Le Tour du Monde en Quatre-Vingts Jours", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-15T09:11:27.505Z"}
+{"bookId": "681c37932f50cc75abd4b04e", "title": "Le Tour du Monde en Quatre-Vingts Jours", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-10T15:23:17.954Z"}
+{"bookId": "681c37932f50cc75abd4b051", "title": "Vingt mille lieues sous les mers", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-01T21:26:09.213Z"}
+{"bookId": "681c37932f50cc75abd4b051", "title": "Vingt mille lieues sous les mers", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-14T15:06:09.590Z"}
+{"bookId": "681c37932f50cc75abd4b051", "title": "Vingt mille lieues sous les mers", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-16T16:56:29.580Z"}
+{"bookId": "681c37932f50cc75abd4b051", "title": "Vingt mille lieues sous les mers", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-15T05:00:12.623Z"}
+{"bookId": "681c37932f50cc75abd4b051", "title": "Vingt mille lieues sous les mers", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-30T06:30:17.407Z"}
+{"bookId": "681c37932f50cc75abd4b054", "title": "The pioneers", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-30T11:41:00.938Z"}
+{"bookId": "681c37932f50cc75abd4b057", "title": "White Fang", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-18T17:17:15.386Z"}
+{"bookId": "681c37932f50cc75abd4b057", "title": "White Fang", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-06T02:48:49.507Z"}
+{"bookId": "681c37932f50cc75abd4b057", "title": "White Fang", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-22T12:34:54.004Z"}
+{"bookId": "681c37932f50cc75abd4b05a", "title": "Kidnapped", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-28T23:57:26.481Z"}
+{"bookId": "681c37932f50cc75abd4b05a", "title": "Kidnapped", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-13T11:52:57.503Z"}
+{"bookId": "681c37932f50cc75abd4b05a", "title": "Kidnapped", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-12T04:43:31.642Z"}
+{"bookId": "681c37932f50cc75abd4b05a", "title": "Kidnapped", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-11T08:59:02.204Z"}
+{"bookId": "681c37932f50cc75abd4b05a", "title": "Kidnapped", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-30T10:06:58.195Z"}
+{"bookId": "681c37932f50cc75abd4b05a", "title": "Kidnapped", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-12T23:10:55.077Z"}
+{"bookId": "681c37932f50cc75abd4b05a", "title": "Kidnapped", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-15T10:42:54.991Z"}
+{"bookId": "681c37932f50cc75abd4b05a", "title": "Kidnapped", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-10T07:57:31.712Z"}
+{"bookId": "681c37942f50cc75abd4b05d", "title": "Wuthering Heights", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-11T09:55:59.509Z"}
+{"bookId": "681c37942f50cc75abd4b05d", "title": "Wuthering Heights", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-05T12:47:22.457Z"}
+{"bookId": "681c37942f50cc75abd4b05d", "title": "Wuthering Heights", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-24T20:50:20.524Z"}
+{"bookId": "681c37942f50cc75abd4b05d", "title": "Wuthering Heights", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-05T02:59:21.709Z"}
+{"bookId": "681c37942f50cc75abd4b05d", "title": "Wuthering Heights", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-27T22:49:08.628Z"}
+{"bookId": "681c37942f50cc75abd4b05d", "title": "Wuthering Heights", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-10T06:34:24.930Z"}
+{"bookId": "681c37942f50cc75abd4b060", "title": "Emma", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-11T23:30:23.914Z"}
+{"bookId": "681c37942f50cc75abd4b063", "title": "Sense and Sensibility", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-22T07:19:37.780Z"}
+{"bookId": "681c37942f50cc75abd4b063", "title": "Sense and Sensibility", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-04T09:14:55.037Z"}
+{"bookId": "681c37942f50cc75abd4b063", "title": "Sense and Sensibility", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-30T04:10:00.608Z"}
+{"bookId": "681c37942f50cc75abd4b063", "title": "Sense and Sensibility", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-18T16:38:25.032Z"}
+{"bookId": "681c37942f50cc75abd4b063", "title": "Sense and Sensibility", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-06T06:50:02.312Z"}
+{"bookId": "681c37942f50cc75abd4b063", "title": "Sense and Sensibility", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-01T04:28:02.632Z"}
+{"bookId": "681c37942f50cc75abd4b063", "title": "Sense and Sensibility", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-16T16:29:39.391Z"}
+{"bookId": "681c37942f50cc75abd4b063", "title": "Sense and Sensibility", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-07T04:54:54.486Z"}
+{"bookId": "681c37942f50cc75abd4b066", "title": "Little Women", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-11T13:07:44.177Z"}
+{"bookId": "681c37942f50cc75abd4b066", "title": "Little Women", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-04T17:44:16.988Z"}
+{"bookId": "681c37942f50cc75abd4b066", "title": "Little Women", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-02T13:13:34.652Z"}
+{"bookId": "681c37942f50cc75abd4b066", "title": "Little Women", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-28T03:06:49.385Z"}
+{"bookId": "681c37942f50cc75abd4b069", "title": "Northanger Abbey", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-03T03:05:59.579Z"}
+{"bookId": "681c37942f50cc75abd4b069", "title": "Northanger Abbey", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-23T21:36:04.467Z"}
+{"bookId": "681c37942f50cc75abd4b069", "title": "Northanger Abbey", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-14T17:23:35.118Z"}
+{"bookId": "681c37942f50cc75abd4b069", "title": "Northanger Abbey", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-15T20:08:04.700Z"}
+{"bookId": "681c37942f50cc75abd4b06c", "title": "Ethan Frome", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-11T23:37:33.761Z"}
+{"bookId": "681c37942f50cc75abd4b06c", "title": "Ethan Frome", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-05T03:30:11.201Z"}
+{"bookId": "681c37942f50cc75abd4b06c", "title": "Ethan Frome", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-10T14:25:46.345Z"}
+{"bookId": "681c37942f50cc75abd4b06c", "title": "Ethan Frome", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-24T06:48:23.461Z"}
+{"bookId": "681c37942f50cc75abd4b06c", "title": "Ethan Frome", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-19T15:44:50.807Z"}
+{"bookId": "681c37942f50cc75abd4b06c", "title": "Ethan Frome", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-04T14:52:38.281Z"}
+{"bookId": "681c37942f50cc75abd4b06f", "title": "Anna Karenina", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-02T19:35:18.908Z"}
+{"bookId": "681c37942f50cc75abd4b06f", "title": "Anna Karenina", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-12T23:05:21.563Z"}
+{"bookId": "681c37942f50cc75abd4b06f", "title": "Anna Karenina", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-04T03:37:35.806Z"}
+{"bookId": "681c37942f50cc75abd4b072", "title": "Jane Eyre", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-02T01:58:21.309Z"}
+{"bookId": "681c37942f50cc75abd4b072", "title": "Jane Eyre", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-25T14:21:38.737Z"}
+{"bookId": "681c37942f50cc75abd4b072", "title": "Jane Eyre", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-11T09:45:41.800Z"}
+{"bookId": "681c37942f50cc75abd4b072", "title": "Jane Eyre", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-24T16:02:39.668Z"}
+{"bookId": "681c37942f50cc75abd4b072", "title": "Jane Eyre", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-29T22:09:14.289Z"}
+{"bookId": "681c37942f50cc75abd4b072", "title": "Jane Eyre", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-23T14:14:57.441Z"}
+{"bookId": "681c37942f50cc75abd4b075", "title": "Le Comte de Monte Cristo", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-02T16:29:48.128Z"}
+{"bookId": "681c37942f50cc75abd4b075", "title": "Le Comte de Monte Cristo", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-11T10:47:31.998Z"}
+{"bookId": "681c37942f50cc75abd4b075", "title": "Le Comte de Monte Cristo", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-24T08:14:55.048Z"}
+{"bookId": "681c37942f50cc75abd4b075", "title": "Le Comte de Monte Cristo", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-24T06:45:14.560Z"}
+{"bookId": "681c37942f50cc75abd4b075", "title": "Le Comte de Monte Cristo", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-17T05:05:37.590Z"}
+{"bookId": "681c37942f50cc75abd4b078", "title": "Uncle Tom's Cabin", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-12T11:03:47.466Z"}
+{"bookId": "681c37942f50cc75abd4b078", "title": "Uncle Tom's Cabin", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-17T02:19:30.397Z"}
+{"bookId": "681c37942f50cc75abd4b07b", "title": "The Moonstone", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-25T09:25:22.851Z"}
+{"bookId": "681c37942f50cc75abd4b07b", "title": "The Moonstone", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-07T11:29:58.248Z"}
+{"bookId": "681c37942f50cc75abd4b07e", "title": "Women in Love", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-25T00:26:42.711Z"}
+{"bookId": "681c37942f50cc75abd4b07e", "title": "Women in Love", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-12T05:42:11.200Z"}
+{"bookId": "681c37942f50cc75abd4b07e", "title": "Women in Love", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-02T19:54:47.792Z"}
+{"bookId": "681c37942f50cc75abd4b07e", "title": "Women in Love", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-19T04:12:21.289Z"}
+{"bookId": "681c37942f50cc75abd4b07e", "title": "Women in Love", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-15T20:22:00.609Z"}
+{"bookId": "681c37942f50cc75abd4b081", "title": "This Side of Paradise", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-30T13:53:18.681Z"}
+{"bookId": "681c37942f50cc75abd4b081", "title": "This Side of Paradise", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-03T04:16:32.067Z"}
+{"bookId": "681c37942f50cc75abd4b081", "title": "This Side of Paradise", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-02T22:11:10.168Z"}
+{"bookId": "681c37942f50cc75abd4b081", "title": "This Side of Paradise", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-05T13:48:56.889Z"}
+{"bookId": "681c37942f50cc75abd4b084", "title": "Cranford", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-07T11:08:45.413Z"}
+{"bookId": "681c37942f50cc75abd4b084", "title": "Cranford", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-03T00:02:32.187Z"}
+{"bookId": "681c37942f50cc75abd4b084", "title": "Cranford", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-07T13:01:48.467Z"}
+{"bookId": "681c37942f50cc75abd4b084", "title": "Cranford", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-18T00:48:02.773Z"}
+{"bookId": "681c37942f50cc75abd4b084", "title": "Cranford", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-24T07:29:42.175Z"}
+{"bookId": "681c37952f50cc75abd4b089", "title": "The Wonderful Wizard of Oz", "userId": "68289a3d84bc5a83ae986872", "action": "click", "timestamp": "2025-05-18T17:11:24.407Z"}
+{"bookId": "681c37952f50cc75abd4b089", "title": "The Wonderful Wizard of Oz", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-18T17:11:26.419Z"}
+{"bookId": "681c37952f50cc75abd4b089", "title": "The Wonderful Wizard of Oz", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-18T17:11:28.947Z"}
+{"bookId": "681c37952f50cc75abd4b089", "title": "The Wonderful Wizard of Oz", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-28T19:51:28.099Z"}
+{"bookId": "681c37952f50cc75abd4b089", "title": "The Wonderful Wizard of Oz", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-11T02:59:26.658Z"}
+{"bookId": "681c37952f50cc75abd4b08e", "title": "The Prince", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-27T00:09:15.925Z"}
+{"bookId": "681c37952f50cc75abd4b08e", "title": "The Prince", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-27T17:41:08.280Z"}
+{"bookId": "681c37952f50cc75abd4b08e", "title": "The Prince", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-15T11:19:11.802Z"}
+{"bookId": "681c37952f50cc75abd4b08e", "title": "The Prince", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-11T18:36:12.727Z"}
+{"bookId": "681c37952f50cc75abd4b091", "title": "Through the Looking-Glass", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-17T18:43:56.888Z"}
+{"bookId": "681c37952f50cc75abd4b091", "title": "Through the Looking-Glass", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-25T03:57:43.449Z"}
+{"bookId": "681c37952f50cc75abd4b091", "title": "Through the Looking-Glass", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-17T13:47:48.450Z"}
+{"bookId": "681c37952f50cc75abd4b091", "title": "Through the Looking-Glass", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-06T13:46:28.847Z"}
+{"bookId": "681c37952f50cc75abd4b091", "title": "Through the Looking-Glass", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-25T08:44:01.672Z"}
+{"bookId": "681c37952f50cc75abd4b091", "title": "Through the Looking-Glass", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-10T23:59:00.235Z"}
+{"bookId": "681c37952f50cc75abd4b091", "title": "Through the Looking-Glass", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-12T12:49:24.424Z"}
+{"bookId": "681c37952f50cc75abd4b094", "title": "Wind in the Willows", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-20T16:02:51.600Z"}
+{"bookId": "681c37952f50cc75abd4b094", "title": "Wind in the Willows", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-27T15:46:33.629Z"}
+{"bookId": "681c37952f50cc75abd4b094", "title": "Wind in the Willows", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-10T02:56:10.810Z"}
+{"bookId": "681c37952f50cc75abd4b094", "title": "Wind in the Willows", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-03T23:58:50.657Z"}
+{"bookId": "681c37952f50cc75abd4b094", "title": "Wind in the Willows", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-04T20:24:11.326Z"}
+{"bookId": "681c37952f50cc75abd4b094", "title": "Wind in the Willows", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-22T05:53:21.909Z"}
+{"bookId": "681c37952f50cc75abd4b097", "title": "Five Children and It", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-29T05:03:54.265Z"}
+{"bookId": "681c37952f50cc75abd4b097", "title": "Five Children and It", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-27T13:38:32.839Z"}
+{"bookId": "681c37952f50cc75abd4b09a", "title": "A Midsummer Night's Dream", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-21T15:29:11.622Z"}
+{"bookId": "681c37952f50cc75abd4b09a", "title": "A Midsummer Night's Dream", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-07T14:19:14.198Z"}
+{"bookId": "681c37952f50cc75abd4b09a", "title": "A Midsummer Night's Dream", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-12T17:17:37.839Z"}
+{"bookId": "681c37952f50cc75abd4b09a", "title": "A Midsummer Night's Dream", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-22T05:02:25.921Z"}
+{"bookId": "681c37952f50cc75abd4b09a", "title": "A Midsummer Night's Dream", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-02T18:14:51.645Z"}
+{"bookId": "681c37952f50cc75abd4b09d", "title": "The Lost World", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-13T00:03:11.165Z"}
+{"bookId": "681c37952f50cc75abd4b09d", "title": "The Lost World", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-21T01:54:21.890Z"}
+{"bookId": "681c37952f50cc75abd4b0a0", "title": "The Marvelous Land of Oz", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-21T18:44:06.331Z"}
+{"bookId": "681c37952f50cc75abd4b0a0", "title": "The Marvelous Land of Oz", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-02T12:02:35.877Z"}
+{"bookId": "681c37952f50cc75abd4b0a0", "title": "The Marvelous Land of Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-16T22:06:56.166Z"}
+{"bookId": "681c37952f50cc75abd4b0a0", "title": "The Marvelous Land of Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-24T08:32:19.766Z"}
+{"bookId": "681c37952f50cc75abd4b0a0", "title": "The Marvelous Land of Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-29T18:24:37.502Z"}
+{"bookId": "681c37952f50cc75abd4b0a0", "title": "The Marvelous Land of Oz", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-03T18:02:28.660Z"}
+{"bookId": "681c37952f50cc75abd4b0a0", "title": "The Marvelous Land of Oz", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-27T18:07:06.987Z"}
+{"bookId": "681c37952f50cc75abd4b0a0", "title": "The Marvelous Land of Oz", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-06T03:36:34.491Z"}
+{"bookId": "681c37952f50cc75abd4b0a3", "title": "Ozma of Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-16T22:17:51.261Z"}
+{"bookId": "681c37952f50cc75abd4b0a3", "title": "Ozma of Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-21T07:35:31.144Z"}
+{"bookId": "681c37952f50cc75abd4b0a3", "title": "Ozma of Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-26T20:59:37.692Z"}
+{"bookId": "681c37952f50cc75abd4b0a3", "title": "Ozma of Oz", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-09T15:33:35.417Z"}
+{"bookId": "681c37952f50cc75abd4b0a3", "title": "Ozma of Oz", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-03T15:49:26.014Z"}
+{"bookId": "681c37952f50cc75abd4b0a6", "title": "The Emerald City of Oz", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-07T22:42:36.928Z"}
+{"bookId": "681c37952f50cc75abd4b0a6", "title": "The Emerald City of Oz", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-25T12:51:33.589Z"}
+{"bookId": "681c37952f50cc75abd4b0a6", "title": "The Emerald City of Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-10T09:01:02.712Z"}
+{"bookId": "681c37952f50cc75abd4b0a6", "title": "The Emerald City of Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-29T17:41:47.395Z"}
+{"bookId": "681c37952f50cc75abd4b0a6", "title": "The Emerald City of Oz", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-11T01:18:08.455Z"}
+{"bookId": "681c37952f50cc75abd4b0a9", "title": "Dorothy and the Wizard in Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-09T04:16:13.702Z"}
+{"bookId": "681c37952f50cc75abd4b0a9", "title": "Dorothy and the Wizard in Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-04T07:57:52.141Z"}
+{"bookId": "681c37952f50cc75abd4b0a9", "title": "Dorothy and the Wizard in Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-08T23:46:43.483Z"}
+{"bookId": "681c37952f50cc75abd4b0a9", "title": "Dorothy and the Wizard in Oz", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-04T00:38:59.467Z"}
+{"bookId": "681c37952f50cc75abd4b0a9", "title": "Dorothy and the Wizard in Oz", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-12T15:02:55.835Z"}
+{"bookId": "681c37952f50cc75abd4b0ac", "title": "The Lost Princess of Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-23T15:30:33.887Z"}
+{"bookId": "681c37952f50cc75abd4b0ac", "title": "The Lost Princess of Oz", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-12T03:44:20.962Z"}
+{"bookId": "681c37952f50cc75abd4b0ac", "title": "The Lost Princess of Oz", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-10T09:05:10.938Z"}
+{"bookId": "681c37952f50cc75abd4b0ac", "title": "The Lost Princess of Oz", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-09T06:35:20.995Z"}
+{"bookId": "681c37962f50cc75abd4b0b2", "title": "The Time Machine", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-03T08:40:58.411Z"}
+{"bookId": "681c37962f50cc75abd4b0b2", "title": "The Time Machine", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-18T22:07:09.481Z"}
+{"bookId": "681c37962f50cc75abd4b0b2", "title": "The Time Machine", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-03T08:08:39.083Z"}
+{"bookId": "681c37962f50cc75abd4b0b7", "title": "Brave New World", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-27T15:18:34.648Z"}
+{"bookId": "681c37962f50cc75abd4b0b7", "title": "Brave New World", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-07T15:38:10.154Z"}
+{"bookId": "681c37962f50cc75abd4b0b7", "title": "Brave New World", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-11T20:43:35.407Z"}
+{"bookId": "681c37962f50cc75abd4b0ba", "title": "The Iron Heel", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-01T11:35:03.202Z"}
+{"bookId": "681c37962f50cc75abd4b0ba", "title": "The Iron Heel", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-22T06:37:30.718Z"}
+{"bookId": "681c37962f50cc75abd4b0ba", "title": "The Iron Heel", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-29T14:29:14.978Z"}
+{"bookId": "681c37962f50cc75abd4b0ba", "title": "The Iron Heel", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-11T19:41:27.532Z"}
+{"bookId": "681c37962f50cc75abd4b0ba", "title": "The Iron Heel", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-19T22:01:31.523Z"}
+{"bookId": "681c37962f50cc75abd4b0bd", "title": "The Invisible Man", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-08T15:36:36.531Z"}
+{"bookId": "681c37962f50cc75abd4b0bd", "title": "The Invisible Man", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-08T06:35:23.924Z"}
+{"bookId": "681c37962f50cc75abd4b0bd", "title": "The Invisible Man", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-11T17:42:00.295Z"}
+{"bookId": "681c37962f50cc75abd4b0bd", "title": "The Invisible Man", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-29T13:13:04.244Z"}
+{"bookId": "681c37962f50cc75abd4b0bd", "title": "The Invisible Man", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-02T02:18:55.936Z"}
+{"bookId": "681c37962f50cc75abd4b0bd", "title": "The Invisible Man", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-27T08:18:52.042Z"}
+{"bookId": "681c37962f50cc75abd4b0bd", "title": "The Invisible Man", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-21T04:32:00.836Z"}
+{"bookId": "681c37962f50cc75abd4b0c0", "title": "Flatland", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-14T05:57:01.593Z"}
+{"bookId": "681c37962f50cc75abd4b0c0", "title": "Flatland", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-02T17:07:31.437Z"}
+{"bookId": "681c37962f50cc75abd4b0c3", "title": "The War of the Worlds", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-10T21:20:45.629Z"}
+{"bookId": "681c37962f50cc75abd4b0c3", "title": "The War of the Worlds", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-23T12:15:03.819Z"}
+{"bookId": "681c37962f50cc75abd4b0c3", "title": "The War of the Worlds", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-22T10:45:43.027Z"}
+{"bookId": "681c37962f50cc75abd4b0c3", "title": "The War of the Worlds", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-30T21:24:55.855Z"}
+{"bookId": "681c37962f50cc75abd4b0c6", "title": "Nineteen Eighty-Four", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-28T08:49:54.902Z"}
+{"bookId": "681c37962f50cc75abd4b0c6", "title": "Nineteen Eighty-Four", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-14T02:56:49.157Z"}
+{"bookId": "681c37962f50cc75abd4b0c6", "title": "Nineteen Eighty-Four", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-23T08:45:22.237Z"}
+{"bookId": "681c37962f50cc75abd4b0c6", "title": "Nineteen Eighty-Four", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-23T16:59:56.313Z"}
+{"bookId": "681c37962f50cc75abd4b0c6", "title": "Nineteen Eighty-Four", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-28T15:41:24.992Z"}
+{"bookId": "681c37962f50cc75abd4b0ca", "title": "The Princess and Curdie", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-22T11:51:55.149Z"}
+{"bookId": "681c37962f50cc75abd4b0ca", "title": "The Princess and Curdie", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-23T22:19:23.555Z"}
+{"bookId": "681c37962f50cc75abd4b0ca", "title": "The Princess and Curdie", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-14T04:50:57.094Z"}
+{"bookId": "681c37962f50cc75abd4b0ca", "title": "The Princess and Curdie", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-11T08:12:08.388Z"}
+{"bookId": "681c37962f50cc75abd4b0ca", "title": "The Princess and Curdie", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-15T10:10:45.824Z"}
+{"bookId": "681c37962f50cc75abd4b0ca", "title": "The Princess and Curdie", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-18T18:23:39.196Z"}
+{"bookId": "681c37962f50cc75abd4b0ca", "title": "The Princess and Curdie", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-18T20:47:01.279Z"}
+{"bookId": "681c37962f50cc75abd4b0ca", "title": "The Princess and Curdie", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-16T15:06:02.606Z"}
+{"bookId": "681c37962f50cc75abd4b0ca", "title": "The Princess and Curdie", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-04T17:22:34.963Z"}
+{"bookId": "681c37972f50cc75abd4b0cf", "title": "\u1f38\u03bb\u03b9\u03ac\u03c2", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-25T11:03:39.694Z"}
+{"bookId": "681c37972f50cc75abd4b0cf", "title": "\u1f38\u03bb\u03b9\u03ac\u03c2", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-06T11:13:18.460Z"}
+{"bookId": "681c37972f50cc75abd4b0cf", "title": "\u1f38\u03bb\u03b9\u03ac\u03c2", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-23T18:18:12.478Z"}
+{"bookId": "681c37972f50cc75abd4b0cf", "title": "\u1f38\u03bb\u03b9\u03ac\u03c2", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-01T03:22:51.005Z"}
+{"bookId": "681c37972f50cc75abd4b0cf", "title": "\u1f38\u03bb\u03b9\u03ac\u03c2", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-03T16:51:16.610Z"}
+{"bookId": "681c37972f50cc75abd4b0cf", "title": "\u1f38\u03bb\u03b9\u03ac\u03c2", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-18T07:09:41.653Z"}
+{"bookId": "681c37972f50cc75abd4b0cf", "title": "\u1f38\u03bb\u03b9\u03ac\u03c2", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-01T10:31:11.496Z"}
+{"bookId": "681c37972f50cc75abd4b0d2", "title": "The Adventures of Tom Sawyer", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-06T12:58:26.203Z"}
+{"bookId": "681c37972f50cc75abd4b0d2", "title": "The Adventures of Tom Sawyer", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-26T04:43:49.620Z"}
+{"bookId": "681c37972f50cc75abd4b0d2", "title": "The Adventures of Tom Sawyer", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-15T17:12:35.884Z"}
+{"bookId": "681c37972f50cc75abd4b0d2", "title": "The Adventures of Tom Sawyer", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-22T09:23:22.175Z"}
+{"bookId": "681c37972f50cc75abd4b0d2", "title": "The Adventures of Tom Sawyer", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-21T05:02:02.711Z"}
+{"bookId": "681c37972f50cc75abd4b0d2", "title": "The Adventures of Tom Sawyer", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-09T22:58:58.346Z"}
+{"bookId": "681c37972f50cc75abd4b0d6", "title": "The Scarlet Pimpernel", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-17T07:45:30.319Z"}
+{"bookId": "681c37972f50cc75abd4b0d6", "title": "The Scarlet Pimpernel", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-27T12:16:13.413Z"}
+{"bookId": "681c37972f50cc75abd4b0d6", "title": "The Scarlet Pimpernel", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-21T01:13:30.409Z"}
+{"bookId": "681c37972f50cc75abd4b0d9", "title": "The Coral Island", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-17T15:17:09.837Z"}
+{"bookId": "681c37972f50cc75abd4b0de", "title": "Le petit prince", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-13T17:47:38.029Z"}
+{"bookId": "681c37972f50cc75abd4b0de", "title": "Le petit prince", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-23T09:43:24.434Z"}
+{"bookId": "681c37972f50cc75abd4b0de", "title": "Le petit prince", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-09T21:11:53.758Z"}
+{"bookId": "681c37972f50cc75abd4b0de", "title": "Le petit prince", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-22T21:52:19.249Z"}
+{"bookId": "681c37972f50cc75abd4b0de", "title": "Le petit prince", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-21T10:45:51.849Z"}
+{"bookId": "681c37972f50cc75abd4b0e3", "title": "Tom Sawyer, Detective", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-12T14:52:48.394Z"}
+{"bookId": "681c37972f50cc75abd4b0e3", "title": "Tom Sawyer, Detective", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-12T22:10:33.703Z"}
+{"bookId": "681c37972f50cc75abd4b0e3", "title": "Tom Sawyer, Detective", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-12T10:40:16.273Z"}
+{"bookId": "681c37972f50cc75abd4b0e7", "title": "The Return of the King", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-26T05:47:55.973Z"}
+{"bookId": "681c37972f50cc75abd4b0e7", "title": "The Return of the King", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-27T23:35:30.479Z"}
+{"bookId": "681c37972f50cc75abd4b0e7", "title": "The Return of the King", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-20T17:32:14.082Z"}
+{"bookId": "681c37972f50cc75abd4b0e7", "title": "The Return of the King", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-15T14:31:21.579Z"}
+{"bookId": "681c37972f50cc75abd4b0ea", "title": "Harry Potter and the Prisoner of Azkaban", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-08T08:17:27.694Z"}
+{"bookId": "681c37972f50cc75abd4b0ea", "title": "Harry Potter and the Prisoner of Azkaban", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-16T01:28:58.151Z"}
+{"bookId": "681c37972f50cc75abd4b0ea", "title": "Harry Potter and the Prisoner of Azkaban", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-10T13:25:38.489Z"}
+{"bookId": "681c37972f50cc75abd4b0ea", "title": "Harry Potter and the Prisoner of Azkaban", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-28T20:46:44.167Z"}
+{"bookId": "681c37972f50cc75abd4b0ed", "title": "Pride and Prejudice", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-22T00:04:09.893Z"}
+{"bookId": "681c37972f50cc75abd4b0ed", "title": "Pride and Prejudice", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-29T13:07:39.235Z"}
+{"bookId": "681c37972f50cc75abd4b0ed", "title": "Pride and Prejudice", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-10T21:13:41.118Z"}
+{"bookId": "681c37972f50cc75abd4b0ed", "title": "Pride and Prejudice", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-12T15:09:38.773Z"}
+{"bookId": "681c37972f50cc75abd4b0ed", "title": "Pride and Prejudice", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-30T18:35:35.939Z"}
+{"bookId": "681c37972f50cc75abd4b0ed", "title": "Pride and Prejudice", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-06T11:25:14.875Z"}
+{"bookId": "681c37972f50cc75abd4b0f3", "title": "Oliver Twist", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-04T10:55:43.764Z"}
+{"bookId": "681c37972f50cc75abd4b0f3", "title": "Oliver Twist", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-05T06:23:26.044Z"}
+{"bookId": "681c37972f50cc75abd4b0f3", "title": "Oliver Twist", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-05T21:22:36.074Z"}
+{"bookId": "681c37972f50cc75abd4b0f3", "title": "Oliver Twist", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-14T14:07:42.856Z"}
+{"bookId": "681c37972f50cc75abd4b0f6", "title": "A Tale of Two Cities", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-29T02:34:53.971Z"}
+{"bookId": "681c37972f50cc75abd4b0f6", "title": "A Tale of Two Cities", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-03T21:27:18.908Z"}
+{"bookId": "681c37972f50cc75abd4b0f6", "title": "A Tale of Two Cities", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-10T12:20:45.306Z"}
+{"bookId": "681c37972f50cc75abd4b0fc", "title": "Les Trois Mousquetaires", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-02T16:55:56.233Z"}
+{"bookId": "681c37972f50cc75abd4b0fc", "title": "Les Trois Mousquetaires", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-12T13:54:39.857Z"}
+{"bookId": "681c37972f50cc75abd4b0fc", "title": "Les Trois Mousquetaires", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-12T22:43:04.234Z"}
+{"bookId": "681c37972f50cc75abd4b0fc", "title": "Les Trois Mousquetaires", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-20T16:07:27.077Z"}
+{"bookId": "681c37972f50cc75abd4b0fc", "title": "Les Trois Mousquetaires", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-25T23:39:54.960Z"}
+{"bookId": "681c37972f50cc75abd4b100", "title": "The Last of the Mohicans", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-03T16:45:56.911Z"}
+{"bookId": "681c37972f50cc75abd4b100", "title": "The Last of the Mohicans", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-25T05:24:08.073Z"}
+{"bookId": "681c37972f50cc75abd4b100", "title": "The Last of the Mohicans", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-11T00:20:34.283Z"}
+{"bookId": "681c37972f50cc75abd4b100", "title": "The Last of the Mohicans", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-23T14:40:53.287Z"}
+{"bookId": "681c37972f50cc75abd4b103", "title": "David Copperfield", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-18T04:49:45.089Z"}
+{"bookId": "681c37972f50cc75abd4b103", "title": "David Copperfield", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-26T07:06:29.338Z"}
+{"bookId": "681c37972f50cc75abd4b103", "title": "David Copperfield", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-10T13:27:39.037Z"}
+{"bookId": "681c37972f50cc75abd4b103", "title": "David Copperfield", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-07T08:55:36.677Z"}
+{"bookId": "681c37972f50cc75abd4b103", "title": "David Copperfield", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-28T06:08:11.196Z"}
+{"bookId": "681c37972f50cc75abd4b103", "title": "David Copperfield", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-26T20:02:07.632Z"}
+{"bookId": "681c37972f50cc75abd4b103", "title": "David Copperfield", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-13T20:00:18.042Z"}
+{"bookId": "681c37972f50cc75abd4b106", "title": "The Prince and the Pauper", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-21T23:41:30.215Z"}
+{"bookId": "681c39b4685b1403d8155c4d", "title": "It", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-19T21:58:03.288Z"}
+{"bookId": "681c39b4685b1403d8155c4d", "title": "It", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-29T06:37:16.942Z"}
+{"bookId": "681c39b4685b1403d8155c4d", "title": "It", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-19T06:31:31.571Z"}
+{"bookId": "681c39b4685b1403d8155c4d", "title": "It", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-22T15:39:36.500Z"}
+{"bookId": "681c39b4685b1403d8155c50", "title": "The Gunslinger", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-22T10:01:50.999Z"}
+{"bookId": "681c39b4685b1403d8155c53", "title": "The Green Mile", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-06T22:23:56.063Z"}
+{"bookId": "681c39b4685b1403d8155c53", "title": "The Green Mile", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-11T15:34:20.614Z"}
+{"bookId": "681c39b4685b1403d8155c53", "title": "The Green Mile", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-18T20:35:36.118Z"}
+{"bookId": "681c39b4685b1403d8155c53", "title": "The Green Mile", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-10T02:58:32.672Z"}
+{"bookId": "681c39b4685b1403d8155c56", "title": "Pet Sematary", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-20T10:22:34.893Z"}
+{"bookId": "681c39b4685b1403d8155c56", "title": "Pet Sematary", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-26T07:28:55.897Z"}
+{"bookId": "681c39b4685b1403d8155c56", "title": "Pet Sematary", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-17T08:29:45.281Z"}
+{"bookId": "681c39b4685b1403d8155c56", "title": "Pet Sematary", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-19T17:30:08.633Z"}
+{"bookId": "681c39b4685b1403d8155c59", "title": "The Dead Zone", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-02T23:41:07.189Z"}
+{"bookId": "681c39b4685b1403d8155c59", "title": "The Dead Zone", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-28T13:07:04.266Z"}
+{"bookId": "681c39b5685b1403d8155c6b", "title": "James and the Giant Peach", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-03T11:46:19.378Z"}
+{"bookId": "681c39b5685b1403d8155c6e", "title": "The BFG", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-29T08:21:26.215Z"}
+{"bookId": "681c39b5685b1403d8155c6e", "title": "The BFG", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-01T05:37:34.156Z"}
+{"bookId": "681c39b5685b1403d8155c6e", "title": "The BFG", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-17T01:03:13.104Z"}
+{"bookId": "681c39b5685b1403d8155c6e", "title": "The BFG", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-18T12:25:46.244Z"}
+{"bookId": "681c39b5685b1403d8155c6e", "title": "The BFG", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-12T08:15:00.063Z"}
+{"bookId": "681c39b5685b1403d8155c71", "title": "Colloquia", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-07T06:36:22.179Z"}
+{"bookId": "681c39b5685b1403d8155c71", "title": "Colloquia", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-01T01:06:26.947Z"}
+{"bookId": "681c39b5685b1403d8155c71", "title": "Colloquia", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-27T03:32:57.667Z"}
+{"bookId": "681c39b5685b1403d8155c71", "title": "Colloquia", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-05T19:33:34.917Z"}
+{"bookId": "681c39b5685b1403d8155c71", "title": "Colloquia", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-27T13:52:33.561Z"}
+{"bookId": "681c39b5685b1403d8155c71", "title": "Colloquia", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-01T11:20:12.332Z"}
+{"bookId": "681c39b5685b1403d8155c74", "title": "The Admirable Crichton", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-15T14:52:06.462Z"}
+{"bookId": "681c39b5685b1403d8155c74", "title": "The Admirable Crichton", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-24T11:58:08.320Z"}
+{"bookId": "681c39b5685b1403d8155c74", "title": "The Admirable Crichton", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-14T18:47:09.295Z"}
+{"bookId": "681c39b5685b1403d8155c74", "title": "The Admirable Crichton", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-01T20:06:08.085Z"}
+{"bookId": "681c39b5685b1403d8155c74", "title": "The Admirable Crichton", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-10T14:40:23.891Z"}
+{"bookId": "681c39b5685b1403d8155c74", "title": "The Admirable Crichton", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-13T15:05:38.997Z"}
+{"bookId": "681c39b5685b1403d8155c77", "title": "Nonsense novels", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-17T02:13:56.411Z"}
+{"bookId": "681c39b5685b1403d8155c77", "title": "Nonsense novels", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-30T12:51:58.643Z"}
+{"bookId": "681c39b6685b1403d8155c89", "title": "Basil", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-08T08:15:06.127Z"}
+{"bookId": "681c39b6685b1403d8155c89", "title": "Basil", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-01T06:45:54.878Z"}
+{"bookId": "681c39b6685b1403d8155c89", "title": "Basil", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-30T06:17:36.816Z"}
+{"bookId": "681c39b6685b1403d8155c8c", "title": "The Black Robe", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-14T13:39:44.079Z"}
+{"bookId": "681c39b6685b1403d8155c8c", "title": "The Black Robe", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-11T23:12:42.097Z"}
+{"bookId": "681c39b6685b1403d8155c8f", "title": "Murder on the Links", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-20T23:26:24.907Z"}
+{"bookId": "681c39b6685b1403d8155c8f", "title": "Murder on the Links", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-13T07:02:29.014Z"}
+{"bookId": "681c39b6685b1403d8155c8f", "title": "Murder on the Links", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-09T13:19:05.584Z"}
+{"bookId": "681c39b6685b1403d8155c8f", "title": "Murder on the Links", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-09T23:07:12.010Z"}
+{"bookId": "681c39b6685b1403d8155c8f", "title": "Murder on the Links", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-26T01:28:39.017Z"}
+{"bookId": "681c39b6685b1403d8155c92", "title": "Fifty Candles", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-03T15:09:59.714Z"}
+{"bookId": "681c39b6685b1403d8155c92", "title": "Fifty Candles", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-17T08:02:44.896Z"}
+{"bookId": "681c39b6685b1403d8155c92", "title": "Fifty Candles", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-29T14:50:42.544Z"}
+{"bookId": "681c39b6685b1403d8155c92", "title": "Fifty Candles", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-13T13:52:03.474Z"}
+{"bookId": "681c39b6685b1403d8155c92", "title": "Fifty Candles", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-21T06:16:27.992Z"}
+{"bookId": "681c39b6685b1403d8155c92", "title": "Fifty Candles", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-06T12:13:39.267Z"}
+{"bookId": "681c39b6685b1403d8155c92", "title": "Fifty Candles", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-13T20:22:49.626Z"}
+{"bookId": "681c39b6685b1403d8155c95", "title": "The Amateur Cracksman", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-20T06:54:10.081Z"}
+{"bookId": "681c39b6685b1403d8155c95", "title": "The Amateur Cracksman", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-09T21:45:48.879Z"}
+{"bookId": "681c39b6685b1403d8155c95", "title": "The Amateur Cracksman", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-24T19:49:14.487Z"}
+{"bookId": "681c39b6685b1403d8155c95", "title": "The Amateur Cracksman", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-16T23:38:59.291Z"}
+{"bookId": "681c39b7685b1403d8155ca7", "title": "Mr. Standfast", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-04-27T10:26:32.089Z"}
+{"bookId": "681c39b7685b1403d8155ca7", "title": "Mr. Standfast", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-12T16:51:01.454Z"}
+{"bookId": "681c39b7685b1403d8155ca7", "title": "Mr. Standfast", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-14T14:03:48.975Z"}
+{"bookId": "681c39b7685b1403d8155ca7", "title": "Mr. Standfast", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-09T22:33:32.999Z"}
+{"bookId": "681c39b7685b1403d8155ca7", "title": "Mr. Standfast", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-16T02:45:10.142Z"}
+{"bookId": "681c39b7685b1403d8155ca7", "title": "Mr. Standfast", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-24T08:23:13.809Z"}
+{"bookId": "681c39b7685b1403d8155ca7", "title": "Mr. Standfast", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-08T09:45:25.222Z"}
+{"bookId": "681c39b7685b1403d8155ca7", "title": "Mr. Standfast", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-20T23:17:54.928Z"}
+{"bookId": "681c39b7685b1403d8155caa", "title": "A strange disappearance", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-04T14:55:22.263Z"}
+{"bookId": "681c39b7685b1403d8155caa", "title": "A strange disappearance", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-18T03:52:57.960Z"}
+{"bookId": "681c39b7685b1403d8155caa", "title": "A strange disappearance", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-21T20:49:14.827Z"}
+{"bookId": "681c39b7685b1403d8155caa", "title": "A strange disappearance", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-26T12:06:37.288Z"}
+{"bookId": "681c39b7685b1403d8155cad", "title": "The Evil Shepherd", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-04-26T21:18:45.142Z"}
+{"bookId": "681c39b7685b1403d8155cad", "title": "The Evil Shepherd", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-30T01:20:07.587Z"}
+{"bookId": "681c39b7685b1403d8155cad", "title": "The Evil Shepherd", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-09T02:18:26.831Z"}
+{"bookId": "681c39b7685b1403d8155cad", "title": "The Evil Shepherd", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-24T23:31:17.123Z"}
+{"bookId": "681c39b7685b1403d8155cad", "title": "The Evil Shepherd", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-16T21:28:20.410Z"}
+{"bookId": "681c39b7685b1403d8155cb0", "title": "Otto of the Silver Hand", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-14T13:06:59.025Z"}
+{"bookId": "681c39b7685b1403d8155cb0", "title": "Otto of the Silver Hand", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-28T02:43:13.212Z"}
+{"bookId": "681c39b7685b1403d8155cb3", "title": "Voyage au Centre de la Terre", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-05T03:35:36.345Z"}
+{"bookId": "681c39b7685b1403d8155cb3", "title": "Voyage au Centre de la Terre", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-13T15:41:44.465Z"}
+{"bookId": "681c39b7685b1403d8155cb3", "title": "Voyage au Centre de la Terre", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-28T01:37:33.369Z"}
+{"bookId": "681c39b7685b1403d8155cb3", "title": "Voyage au Centre de la Terre", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-19T06:53:48.154Z"}
+{"bookId": "681c39b8685b1403d8155cc5", "title": "Jude the Obscure", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-09T18:51:07.426Z"}
+{"bookId": "681c39b8685b1403d8155cc5", "title": "Jude the Obscure", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-15T12:59:15.110Z"}
+{"bookId": "681c39b8685b1403d8155cc5", "title": "Jude the Obscure", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-16T18:24:07.373Z"}
+{"bookId": "681c39b8685b1403d8155cc8", "title": "The Woodlanders", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-03T05:25:43.428Z"}
+{"bookId": "681c39b8685b1403d8155cc8", "title": "The Woodlanders", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-20T04:51:28.695Z"}
+{"bookId": "681c39b8685b1403d8155cc8", "title": "The Woodlanders", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-15T11:55:07.409Z"}
+{"bookId": "681c39b8685b1403d8155cc8", "title": "The Woodlanders", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-11T17:36:34.554Z"}
+{"bookId": "681c39b8685b1403d8155cc8", "title": "The Woodlanders", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-08T03:43:19.565Z"}
+{"bookId": "681c39b8685b1403d8155cc8", "title": "The Woodlanders", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-05-08T08:46:00.065Z"}
+{"bookId": "681c39b8685b1403d8155cc8", "title": "The Woodlanders", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-21T15:58:48.114Z"}
+{"bookId": "681c39b8685b1403d8155ccb", "title": "\u0915\u093e\u092e\u0938\u0942\u0924\u094d\u0930", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-08T11:29:29.121Z"}
+{"bookId": "681c39b8685b1403d8155ccb", "title": "\u0915\u093e\u092e\u0938\u0942\u0924\u094d\u0930", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-14T18:39:22.805Z"}
+{"bookId": "681c39b8685b1403d8155ccb", "title": "\u0915\u093e\u092e\u0938\u0942\u0924\u094d\u0930", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-20T13:28:57.113Z"}
+{"bookId": "681c39b8685b1403d8155ccb", "title": "\u0915\u093e\u092e\u0938\u0942\u0924\u094d\u0930", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-06T11:43:21.748Z"}
+{"bookId": "681c39b8685b1403d8155ccb", "title": "\u0915\u093e\u092e\u0938\u0942\u0924\u094d\u0930", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-16T17:52:40.300Z"}
+{"bookId": "681c39b8685b1403d8155ccb", "title": "\u0915\u093e\u092e\u0938\u0942\u0924\u094d\u0930", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-22T06:33:38.108Z"}
+{"bookId": "681c39b8685b1403d8155ccf", "title": "Under the Greenwood Tree or, The Mellstock quire", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-24T12:02:34.497Z"}
+{"bookId": "681c39b8685b1403d8155ccf", "title": "Under the Greenwood Tree or, The Mellstock quire", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-18T07:08:41.436Z"}
+{"bookId": "681c39b8685b1403d8155ccf", "title": "Under the Greenwood Tree or, The Mellstock quire", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-02T07:28:32.410Z"}
+{"bookId": "681c39b9685b1403d8155ce1", "title": "The Story of the Amulet", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-11T10:34:48.518Z"}
+{"bookId": "681c39b9685b1403d8155ce1", "title": "The Story of the Amulet", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-15T19:37:50.736Z"}
+{"bookId": "681c39b9685b1403d8155ce1", "title": "The Story of the Amulet", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-20T03:13:53.383Z"}
+{"bookId": "681c39b9685b1403d8155ce4", "title": "The Complete Life and Adventures of Santa Claus", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-26T10:39:25.372Z"}
+{"bookId": "681c39b9685b1403d8155ce4", "title": "The Complete Life and Adventures of Santa Claus", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-18T09:07:03.578Z"}
+{"bookId": "681c39b9685b1403d8155ce8", "title": "The Road to Oz", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-05T15:23:02.210Z"}
+{"bookId": "681c39b9685b1403d8155ce8", "title": "The Road to Oz", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-13T23:23:18.488Z"}
+{"bookId": "681c39b9685b1403d8155ce8", "title": "The Road to Oz", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-03T17:59:28.940Z"}
+{"bookId": "681c39b9685b1403d8155ce8", "title": "The Road to Oz", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-27T01:47:16.387Z"}
+{"bookId": "681c39b9685b1403d8155ce8", "title": "The Road to Oz", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-04-22T18:42:09.920Z"}
+{"bookId": "681c39b9685b1403d8155ceb", "title": "The Sea Fairies", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-05T01:19:30.096Z"}
+{"bookId": "681c39b9685b1403d8155ceb", "title": "The Sea Fairies", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-19T07:02:41.658Z"}
+{"bookId": "681c39b9685b1403d8155ceb", "title": "The Sea Fairies", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-20T09:09:50.860Z"}
+{"bookId": "681c39b9685b1403d8155ceb", "title": "The Sea Fairies", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-04-22T01:12:42.438Z"}
+{"bookId": "681c39b9685b1403d8155ceb", "title": "The Sea Fairies", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-01T21:02:52.757Z"}
+{"bookId": "681c39b9685b1403d8155ceb", "title": "The Sea Fairies", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-22T16:11:17.755Z"}
+{"bookId": "681c39ba685b1403d8155cfe", "title": "The Poison Belt", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-22T19:41:39.318Z"}
+{"bookId": "681c39ba685b1403d8155d01", "title": "The Island of Dr. Moreau", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-09T13:16:23.536Z"}
+{"bookId": "681c39ba685b1403d8155d01", "title": "The Island of Dr. Moreau", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-21T04:32:21.761Z"}
+{"bookId": "681c39ba685b1403d8155d01", "title": "The Island of Dr. Moreau", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-18T23:20:30.070Z"}
+{"bookId": "681c39ba685b1403d8155d01", "title": "The Island of Dr. Moreau", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-01T06:10:47.147Z"}
+{"bookId": "681c39ba685b1403d8155d01", "title": "The Island of Dr. Moreau", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-17T20:20:08.857Z"}
+{"bookId": "681c39ba685b1403d8155d04", "title": "The Secret Agent", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-03T10:02:37.101Z"}
+{"bookId": "681c39ba685b1403d8155d04", "title": "The Secret Agent", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-07T10:01:56.526Z"}
+{"bookId": "681c39ba685b1403d8155d04", "title": "The Secret Agent", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-08T09:35:45.135Z"}
+{"bookId": "681c39ba685b1403d8155d04", "title": "The Secret Agent", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-17T06:36:36.970Z"}
+{"bookId": "681c39ba685b1403d8155d07", "title": "Fahrenheit 451", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-07T08:04:06.746Z"}
+{"bookId": "681c39ba685b1403d8155d07", "title": "Fahrenheit 451", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-04T18:34:07.594Z"}
+{"bookId": "681c39ba685b1403d8155d07", "title": "Fahrenheit 451", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-28T12:12:33.247Z"}
+{"bookId": "681c39ba685b1403d8155d07", "title": "Fahrenheit 451", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-14T10:11:55.833Z"}
+{"bookId": "681c39ba685b1403d8155d07", "title": "Fahrenheit 451", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-01T14:16:04.204Z"}
+{"bookId": "681c39bb685b1403d8155d19", "title": "Lord of the Flies", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-04-19T08:43:48.359Z"}
+{"bookId": "681c39bb685b1403d8155d19", "title": "Lord of the Flies", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-22T05:01:21.432Z"}
+{"bookId": "681c39bb685b1403d8155d19", "title": "Lord of the Flies", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-08T11:38:21.082Z"}
+{"bookId": "681c39bb685b1403d8155d19", "title": "Lord of the Flies", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-05T13:52:09.211Z"}
+{"bookId": "681c39bb685b1403d8155d19", "title": "Lord of the Flies", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-06T11:18:36.893Z"}
+{"bookId": "681c39bb685b1403d8155d19", "title": "Lord of the Flies", "userId": "6829982b5915d55e1a5cb92f", "action": "read", "timestamp": "2025-05-11T09:10:45.608Z"}
+{"bookId": "681c39bb685b1403d8155d19", "title": "Lord of the Flies", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-05-05T01:19:06.568Z"}
+{"bookId": "681c39bb685b1403d8155d1c", "title": "Northern Lights", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-11T02:44:41.784Z"}
+{"bookId": "681c39bb685b1403d8155d1c", "title": "Northern Lights", "userId": "68289a3d84bc5a83ae986872", "action": "dislike", "timestamp": "2025-05-06T02:37:03.769Z"}
+{"bookId": "681c39bb685b1403d8155d1c", "title": "Northern Lights", "userId": "68289a3d84bc5a83ae986872", "action": "bookmark", "timestamp": "2025-05-11T06:02:13.291Z"}
+{"bookId": "681c39bb685b1403d8155d20", "title": "She", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-16T15:07:23.029Z"}
+{"bookId": "681c39bb685b1403d8155d20", "title": "She", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-05-10T18:55:25.252Z"}
+{"bookId": "681c39bb685b1403d8155d23", "title": "Lost Horizon", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-05-07T06:09:20.762Z"}
+{"bookId": "681c39bb685b1403d8155d23", "title": "Lost Horizon", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-03T19:33:31.025Z"}
+{"bookId": "681c39bb685b1403d8155d23", "title": "Lost Horizon", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-05-07T15:07:31.082Z"}
+{"bookId": "681c39bb685b1403d8155d23", "title": "Lost Horizon", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-12T21:33:23.587Z"}
+{"bookId": "681c39bb685b1403d8155d35", "title": "War and Peace", "userId": "6829982b5915d55e1a5cb92f", "action": "bookmark", "timestamp": "2025-04-24T06:48:37.773Z"}
+{"bookId": "681c39bb685b1403d8155d35", "title": "War and Peace", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-05-17T06:37:07.982Z"}
+{"bookId": "681c39bb685b1403d8155d35", "title": "War and Peace", "userId": "6829982b5915d55e1a5cb92f", "action": "like", "timestamp": "2025-04-20T13:23:06.055Z"}
+{"bookId": "681c39bb685b1403d8155d35", "title": "War and Peace", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-28T03:31:59.941Z"}
+{"bookId": "681c39bb685b1403d8155d35", "title": "War and Peace", "userId": "682a060e9d02f03e1c4b707a", "action": "bookmark", "timestamp": "2025-05-17T15:15:41.743Z"}
+{"bookId": "681c39bb685b1403d8155d35", "title": "War and Peace", "userId": "682a060e9d02f03e1c4b707a", "action": "like", "timestamp": "2025-04-27T13:25:37.294Z"}
+{"bookId": "681c39bb685b1403d8155d39", "title": "The Scarlet Letter", "userId": "68289a3d84bc5a83ae986872", "action": "like", "timestamp": "2025-05-07T09:15:48.815Z"}
+{"bookId": "681c39bb685b1403d8155d39", "title": "The Scarlet Letter", "userId": "68289a3d84bc5a83ae986872", "action": "read", "timestamp": "2025-04-30T15:04:55.929Z"}
+{"bookId": "681c39bb685b1403d8155d39", "title": "The Scarlet Letter", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-06T01:50:59.769Z"}
+{"bookId": "681c39bb685b1403d8155d39", "title": "The Scarlet Letter", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-04-28T16:02:26.461Z"}
+{"bookId": "681c39bb685b1403d8155d39", "title": "The Scarlet Letter", "userId": "682a060e9d02f03e1c4b707a", "action": "dislike", "timestamp": "2025-04-30T03:54:32.337Z"}
+{"bookId": "681c39bb685b1403d8155d3d", "title": "Ulysses", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-09T03:26:55.985Z"}
+{"bookId": "681c39bb685b1403d8155d3d", "title": "Ulysses", "userId": "6829982b5915d55e1a5cb92f", "action": "dislike", "timestamp": "2025-05-05T15:49:26.375Z"}
+{"bookId": "681c39bb685b1403d8155d3d", "title": "Ulysses", "userId": "682a060e9d02f03e1c4b707a", "action": "read", "timestamp": "2025-04-20T19:21:15.402Z"}
