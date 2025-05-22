@@ -1,0 +1,13 @@
+ javac -classpath "E:\hadoop\hadoop324\etc\hadoop;E:\hadoop\hadoop324\share\hadoop\common;E:\hadoop\hadoop324\share\hadoop\common\lib\*;E:\hadoop\hadoop324\share\hadoop\common\*;E:\hadoop\hadoop324\share\hadoop\hdfs;E:\hadoop\hadoop324\share\hadoop\hdfs\lib\*;E:\hadoop\hadoop324\share\hadoop\hdfs\*;E:\hadoop\hadoop324\share\hadoop\yarn;E:\hadoop\hadoop324\share\hadoop\yarn\lib\*;E:\hadoop\hadoop324\share\hadoop\yarn\*;E:\hadoop\hadoop324\share\hadoop\mapreduce\lib\*;E:\hadoop\hadoop324\share\hadoop\mapreduce\*" -d. InteractionScore.java
+
+ jar cf InteractionScore.jar Interaction*.class
+
+$env:JAVA_HOME="E:\hadoop\jdk-8.0.302.8-hotspot"
+$env:PATH="$env:JAVA_HOME\bin;$env:PATH"
+
+hdfs dfs -mkdir -p /biblioverse/hadoop/interactions
+hdfs dfs -put interactions.txt /biblioverse/hadoop/interactions
+
+hadoop jar InteractionScore.jar InteractionScore /biblioverse/hadoop/interactions/interactions.txt /biblioverse/hadoop/output
+
+hdfs dfs -cat /biblioverse/hadoop/output/part-r-* > output/output.txt
