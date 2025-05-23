@@ -1,0 +1,57 @@
+Step 3: Update and prepare your environment inside WSL
+Once inside Ubuntu terminal, run:
+
+bash
+Copy
+Edit
+sudo apt update && sudo apt upgrade -y
+sudo apt install openjdk-11-jdk wget -y
+This updates your packages and installs Java 11 (Hive needs Java).
+
+If you want Java 8 instead, tell me, but 11 usually works.
+
+Step 4: Copy your Hive and Hadoop folders inside WSL (optional but recommended)
+Windows drives are accessible in WSL at /mnt/e/ for your E: drive.
+
+Your Hive path E:\hadoop\apacheHive401 will be at /mnt/e/hadoop/apacheHive401 inside WSL.
+
+So to run schematool, you'll navigate inside WSL:
+
+bash
+Copy
+Edit
+cd /mnt/e/hadoop/apacheHive401
+./bin/schematool --initSchema -dbType derby
+Step 5: Set environment variables inside WSL
+Run these inside your WSL terminal:
+
+bash
+Copy
+Edit
+export HADOOP_HOME=/mnt/e/hadoop/hadoop324
+export HIVE_HOME=/mnt/e/hadoop/apacheHive401
+export PATH=$PATH:$HADOOP_HOME/bin:$HIVE_HOME/bin
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+Make sure to adjust Java path if needed (update-java-alternatives -l to list available JDKs).
+
+Step 6: Run your Hive schema tool command again inside WSL
+bash
+Copy
+Edit
+cd $HIVE_HOME
+bin/schematool --initSchema -dbType derby
+If you get errors:
+Tell me exactly what the error is.
+
+We’ll troubleshoot Java classpaths, missing jars, or permissions.
+
+Summary:
+WSL + Ubuntu = proper Linux env on Windows
+
+Java installed inside Ubuntu
+
+Use Linux paths /mnt/e/... instead of Windows-style paths
+
+Export environment variables inside WSL shell
+
+Run Hive schematool inside WSL terminal, not Windows CMD or PowerShe

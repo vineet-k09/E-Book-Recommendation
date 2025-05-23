@@ -1,0 +1,77 @@
+[
+  {
+    "user_id": "6829982b5915d55e1a5cb92f",
+    "recommendations": [
+      {
+        "book_id": "681c37972f50cc75abd4b0cf",
+        "score": 8.911981582641602
+      },
+      {
+        "book_id": "681c37902f50cc75abd4afc0",
+        "score": 8.869413375854492
+      },
+      {
+        "book_id": "681c37962f50cc75abd4b0ca",
+        "score": 8.820232391357422
+      },
+      {
+        "book_id": "681c37932f50cc75abd4b04e",
+        "score": 8.696844100952148
+      },
+      {
+        "book_id": "681c37912f50cc75abd4afde",
+        "score": 8.665996551513672
+      }
+    ]
+  },
+  {
+    "user_id": "68289a3d84bc5a83ae986872",
+    "recommendations": [
+      {
+        "book_id": "681c37962f50cc75abd4b0b2",
+        "score": 8.974918365478516
+      },
+      {
+        "book_id": "681c37902f50cc75abd4afc3",
+        "score": 8.75790023803711
+      },
+      {
+        "book_id": "681c37912f50cc75abd4afff",
+        "score": 8.746397018432617
+      },
+      {
+        "book_id": "681c37922f50cc75abd4b029",
+        "score": 8.612579345703125
+      },
+      {
+        "book_id": "681c37952f50cc75abd4b089",
+        "score": 7.977705478668213
+      }
+    ]
+  },
+  {
+    "user_id": "682a060e9d02f03e1c4b707a",
+    "recommendations": [
+      {
+        "book_id": "681c37922f50cc75abd4b01d",
+        "score": 8.754690170288086
+      },
+      {
+        "book_id": "681c37902f50cc75abd4afd2",
+        "score": 8.754690170288086
+      },
+      {
+        "book_id": "681c37932f50cc75abd4b05a",
+        "score": 8.734976768493652
+      },
+      {
+        "book_id": "681c37962f50cc75abd4b0c3",
+        "score": 8.000189781188965
+      },
+      {
+        "book_id": "681c39bb685b1403d8155d35",
+        "score": 7.954949855804443
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+Got it. Welcome to the Hive club—where SQL meets big data, and your MapReduce output finally gets to party.
+
+Let’s go step-by-step and get your data Hive-ready. You already have:
+
+lua
+Copy
+Edit
+File: output/output.txt
+Contents: (tab-separated)
+userId,bookId    score
+🐝 STEP-BY-STEP: Load Hadoop Output into Hive
+✅ Step 1: Move file to HDFS
+Hive doesn't read local files directly—you need it in HDFS.
+
+bash
+Copy
+Edit
+hdfs dfs -mkdir -p /user/hive/warehouse/book_interactions
+hdfs dfs -put output/output.txt /user/hive/warehouse/book_interactions/
+📝 If output.txt is already in HDFS, just skip this and check the path with:
+
+bash
+Copy
+Edit
+hdfs dfs -ls /user/hive/warehouse/book_interactions
+✅ Step 2: Start Hive CLI
+bash
+Copy
+Edit
+hive
+✅ Step 3: Create External Table in Hive
+You’re telling Hive:
+
+This is tab-delimited
+
+Fields are userId, bookId, score
+
+Data already exists in HDFS, don’t move it
+
+sql
+Copy
+Edit
+CREATE EXTERNAL TABLE IF NOT EXISTS book_interactions (
+    userId STRING,
+    bookId STRING,
+    score INT
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '\t'
+LOCATION '/user/hive/warehouse/book_interactions';
+✅ Step 4: Query Examples
+🔍 Get all data
+sql
+Copy
+Edit
+SELECT * FROM book_interactions LIMIT 10;
+📚 Top 5 books overall (by total score)
+sql
+Copy
+Edit
+SELECT bookId, SUM(score) AS total_score
+FROM book_interactions
+GROUP BY bookId
+ORDER BY total_score DESC
+LIMIT 5;
+👤 Top books for a specific user
+sql
+Copy
+Edit
+SELECT bookId, score
+FROM book_interactions
+WHERE userId = '68289a3d84bc5a83ae986872'
+ORDER BY score DESC;
+💡 Tips
+You can create views or join with other tables (like a books table with titles/genres).
+
+Hive is read-only—don’t try to UPDATE, use INSERT OVERWRITE instead if needed.
+
+Since your file is clean, you don’t need SerDes or complex formats.
+
