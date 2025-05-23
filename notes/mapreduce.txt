@@ -1,0 +1,3 @@
+What the MapReduce job should do (high-level):
+Mapper: Read each interaction JSON line, output (bookId, action) pairs.
+Reducer: Aggregate counts for each (bookId, action) combo (e.g. reads, clicks, bookmarks).
