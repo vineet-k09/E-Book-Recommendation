@@ -30,7 +30,7 @@ All running locally with manual batch jobs to keep system resource usage in chec
 | --------- | ------------------------------------------------- |
 | Frontend  | Next.js, React, Context API                        |
 | Backend   | Node.js, Express, MongoDB                          |
-| Big Data  | Hadoop (HDFS, MapReduce), Hive, Spark MLlib       |
+| Big Data  | Hadoop (HDFS, MapReduce), PySpark MLlib       |
 | Environment | Localhost (Hadoop & Spark), manual batch runs   |
 
 ---
@@ -57,15 +57,6 @@ interactions: [
 Run this **outside** your Express backend to keep batch jobs clean and safe.
 
 ~~~js
-const mongoose = require('mongoose');
-const fs = require('fs');
-const Book = require('../models/Book');
-
-mongoose.connect('mongodb://localhost/ebookdb', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-});
-
 async function exportInteractions() {
   try {
     const books = await Book.find().lean();
@@ -76,7 +67,6 @@ async function exportInteractions() {
     console.error('❌ Error exporting interactions:', err);
   }
 }
-
 exportInteractions();
 ~~~
 
@@ -99,9 +89,12 @@ hadoop jar %HADOOP_HOME%\share\hadoop\tools\lib\hadoop-streaming-*.jar \
   -file backend/scripts/hadoop/mapper.py \
   -file backend/scripts/hadoop/reducer.py
 ~~~
+<img src="https://github.com/vineet-k09/E-Book-Recommendation/blob/main/hadoop/screenshots/mountingdata.png">
 
 - Mapper: emits `(bookId, action)` pairs  
-- Reducer: aggregates counts per `(bookId, action)`  
+- Reducer: aggregates counts per `(bookId, action)`
+
+<img src="https://github.com/vineet-k09/E-Book-Recommendation/blob/main/hadoop/screenshots/output.png">
 
 ---
 
@@ -124,13 +117,20 @@ GROUP BY bookId;
 
 ---
 
-### Spark MLlib Recommendation Pipeline (Overview)
+### PySpark MLlib Recommendation Pipeline (Overview)
 
-- Input: `(userId, bookId, action)` tuples  
+- Input: `(userId, bookId, rating)` tuples from output.txt 
 - Model: ALS collaborative filtering  
-- Output: Personalized book recommendations  
-- Batch-run manually to control memory use  
+- Output: <br> 1. Personalized book recommendations <br>
+          2. Popular Choises Suggestions
+- Batch-run manually to control memory use
 
+Check the code on [GoogleCollab](https://colab.research.google.com/drive/1r992riIkAkwFw4_IM0-PnZt98h3hFfGs?usp=sharing)
+
+<img src="https://github.com/vineet-k09/E-Book-Recommendation/blob/main/spark/screenshots/googlecollab.png">
+
+~~~
+~~~
 ---
 
 ## 🖥️ Frontend Highlights
@@ -149,43 +149,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <AuthProvider>
       <Component {...pageProps} />
     </AuthProvider>
-  );
-}
-~~~
-
-### API Utility (`lib/api.ts`)
-
-~~~ts
-const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
-
-export const fetchBooks = async () => {
-  const res = await fetch(`${BASE_URL}/api/books`);
-  if (!res.ok) throw new Error("Failed to fetch books");
-  return res.json();
-};
-~~~
-
-### Using in `books.tsx`
-
-~~~tsx
-import { fetchBooks } from '@/lib/api';
-import { useEffect, useState } from 'react';
-
-export default function BooksPage() {
-  const [books, setBooks] = useState([]);
-
-  useEffect(() => {
-    fetchBooks()
-      .then(setBooks)
-      .catch(err => console.error(err));
-  }, []);
-
-  return (
-    <div>
-      {books.map(book => (
-        <div key={book._id}>{book.title}</div>
-      ))}
-    </div>
   );
 }
 ~~~
@@ -218,5 +181,4 @@ javac -cp "" -d classes GenrePreference*.java
 - Hadoop & Spark run **locally**; manual batch runs prevent RAM overload  
 - Full MongoDB schema and interaction logging implemented  
 - Book metadata and covers (via Google Books API) fully integrated  
-- Frontend ready to consume recommendations from backend API  
-- Analytics dashboard not needed for now; focus on recommendations and data pipeline  
+- Frontend ready to consume recommendations from backend API
