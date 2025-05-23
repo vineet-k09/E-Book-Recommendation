@@ -1,0 +1,62 @@
+[
+  {
+    "book_id": "681c37912f50cc75abd4afff",
+    "rating_count": 25
+  },
+  {
+    "book_id": "681c37932f50cc75abd4b05a",
+    "rating_count": 22
+  },
+  {
+    "book_id": "681c37932f50cc75abd4b044",
+    "rating_count":22
+  },
+  {
+    "book_id": "681c37952f50cc75abd4b0a6",
+    "rating_count": 21
+  },
+  {
+    "book_id": "681c37942f50cc75abd4b084",
+    "rating_count": 20
+  },
+  {
+    "book_id": "681c37942f50cc75abd4b072",
+    "rating_count": 19
+  },
+  {
+    "book_id": "681c39ba685b1403d8155d01",
+    "rating_count": 19
+  },
+  {
+    "book_id": "681c37932f50cc75abd4b04e",
+    "rating_count": 19
+  },
+  {
+    "book_id": "681c39ba685b1403d8155d04",
+    "rating_count": 19
+  },
+  {
+    "book_id": "681c37972f50cc75abd4b0d2",
+    "rating_count": 18
+  },
+  {
+    "book_id": "681c39b8685b1403d8155ccb",
+    "rating_count": 18
+  },
+  {
+    "book_id": "681c37952f50cc75abd4b091",
+    "rating_count": 17
+  },
+  {
+    "book_id": "681c37962f50cc75abd4b0c6",
+    "rating_count": 17
+  },
+  {
+    "book_id": "681c37922f50cc75abd4b020",
+    "rating_count": 15
+  },
+  {
+    "book_id": "681c39b9685b1403d8155ceb",
+    "rating_count": 15
+  }
+]

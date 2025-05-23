@@ -11,8 +11,21 @@ interface Book {
     description?: string;
 }
 
+//interface for pyspark recommendations n popular choice
+interface RecEntry {
+    user_id: string;
+    recommendations: { book_id: string; score: number }[];
+}
+
+interface PopularEntry {
+    book_id: string;
+    rating_count: number;
+}
+
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 export default function Home() {
+    const [spRecommended, setSpRecommended] = useState<Book[]>([]);
+    const [popular, setPopular] = useState<PopularEntry[]>([]);
     const [recommended, setRecommended] = useState<Book[]>([]);
     const [explore, setExplore] = useState<Book[]>([]);
     const [loading, setLoading] = useState(true);
@@ -20,6 +33,7 @@ export default function Home() {
     useEffect(() => {
         const fetchBooks = async () => {
             const token = localStorage.getItem("token");
+            const user = JSON.parse(localStorage.getItem("user") || "{}");
 
             if (!token) {
                 console.warn("User not logged in.");
@@ -29,6 +43,31 @@ export default function Home() {
             }
 
             try {
+                // 1) pyspark - recommendations.json fetching data
+                const recRes = await fetch('/recommendations.json');
+                const recData: RecEntry[] = await recRes.json();
+
+                // 2) Grab only this user's recs
+                const userRec = recData.find(r => r.user_id === user.id);
+                const bookIds = userRec?.recommendations.map(r => r.book_id) || [];
+
+                // 3) Fetch book details for those recommended IDs
+                //    (Assuming you have an API to fetch books by ID)
+                const recoBooks: Book[] = await Promise.all(
+                    bookIds.map(id =>
+                        fetch(`${BASE_URL}/books/${id}`, {
+                            headers:
+                            {
+                                Authorization: `Bearer ${token}`,
+                            }
+                        })
+                            .then(r => r.json())
+                    )
+                );
+                setSpRecommended(recoBooks);
+                console.log("Spark Recommended books:", recoBooks);
+
+                // mongodb fetching data 
                 const res = await fetch(`${BASE_URL}/user/recommendations`, {
                     headers:
                     {
@@ -38,8 +77,31 @@ export default function Home() {
 
                 const data = await res.json();
                 setRecommended(data.recommended || {});
-                setExplore(data.explore);
+
+                // 4) Fetch popular books JSON, then fetch their details
+                const popRes = await fetch('/popular_books.json');
+                const popData: PopularEntry[] = await popRes.json();
+                setPopular(popData.slice(0, 15));  // top 15
+
+                const popBookIds = popData.slice(0, 15).map(p => p.book_id);
+                const popBooks: Book[] = await Promise.all(
+                    popBookIds.map(id =>
+                        fetch(`${BASE_URL}/books/${id}`, {
+                            headers:
+                            {
+                                Authorization: `Bearer ${token}`,
+                            }
+                        })
+                            .then(r => r.json())
+                    )
+                );
+
+                setExplore(popBooks);
+
+                // setExplore(data.explore);
             } catch (err) {
+
+                console.error(err);
                 alert("Failed to fetch home books:");
             } finally {
                 setLoading(false);
@@ -95,10 +157,19 @@ export default function Home() {
                 {loading ? (
                     <p>Loading books...</p>
                 ) : (
-                    <>
+                    <>{spRecommended.length > 0 && (
+                        <section>
+                            <h2>✨ Recommended for you ~ By PySpark </h2>
+                            <div className={styles['books-grid']}>
+                                {spRecommended.map(book => (
+                                    <BookCard key={book._id} book={book} onInteract={logInteraction} />
+                                ))}
+                            </div>
+                        </section>
+                    )}
                         {recommended.length > 0 && (
                             <section>
-                                <h2>✨ Recommended for You</h2>
+                                <h2>✨ Your Choices</h2>
                                 <div className={styles['books-grid']}>
                                     {recommended.map(book => (
                                         <BookCard key={book._id} book={book} onInteract={logInteraction} />
@@ -109,7 +180,7 @@ export default function Home() {
 
                         {recommended.length > 0 && (
                             <section style={{ marginTop: "3rem" }}>
-                                <h2>📚 Explore More</h2>
+                                <h2>Trending Now ~ 📚 Explore More </h2>
                                 <div className={styles['books-grid']}>
                                     {explore.map(book => (
                                         <BookCard key={book._id} book={book} onInteract={logInteraction} />
