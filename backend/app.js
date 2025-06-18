@@ -14,7 +14,7 @@ connectDB(); // Connect to MongoDB -- async function from config/config.js
 const app = express();
 app.use(express.json()); // Allow JSON requests
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://192.168.75.176:3000'],
+    origin: ['http://localhost:3000', 'http://192.168.75.176:3000', 'https://e-book-recommendation.vercel.app/'],
     credentials: true,
 }));
 // “Hey browser, I approve requests coming from these two origins:
